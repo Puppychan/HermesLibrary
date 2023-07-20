@@ -1,0 +1,290 @@
+/* Ref:
+scroll grid: https://stackoverflow.com/questions/61959291/how-to-get-scrolling-in-a-css-grid
+scroll bar: https://blog.logrocket.com/guide-styling-css-scrollbars/ 
+button: https://getcssscan.com/css-buttons-examples*/
+@import "./variables.css";
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: var(--primary-color-dark);
+    background-color: var(--primary-color-dark);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* buttons */
+.button-1 {
+    background-color: var(--cream);
+    border: 2px solid var(--brown);
+    box-shadow: var(--brown) 4px 4px 0 0;
+    color: var(--brown);
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover {
+    background-color: var(--white);
+}
+
+.button-1:active {
+    border-color: var(--brown);
+    box-shadow: var(--brown) 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-1 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+/* section cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sz-1);
+    width: 100%;
+
+    padding: var(--sz-4);
+
+}
+
+.cards-header {
+    width: 100%;
+    font-size: var(--text-4xl);
+    text-align: center;
+
+}
+
+.cards-content {
+    display: grid;
+    grid-template-columns: unset;
+    /* do not set template columns and rows */
+    grid-template-rows: unset;
+    grid-auto-columns: 30%;
+    grid-auto-flow: column;
+
+    padding: var(--sz-4) 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--sz-4);
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* flex-wrap: nowrap; */
+}
+
+.cards-content {
+    scrollbar-width: thin;
+    scrollbar-color: #DC761D #AEA29A;
+}
+
+.cards-content::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.cards-content::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(to top right, #D0B19D 0%,#D0B19D 100%); */
+    background-color: #79A49C;
+    border-radius: 3px;
+}
+
+.cards-content::-webkit-scrollbar-track {
+    background-color: #AEA29A;
+    border: 1px solid #ccc;
+}
+
+/* Book card */
+.card-book {
+    width: 100%;
+    padding: var(--sz-4);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sz-2);
+    
+}
+/* image */
+.card-book-img-container {
+    width: 100%;
+    height: var(--sz-80);
+
+    position: relative;
+
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.card-book-img-container:hover .card-book-img {
+    transform: scale(1.2);
+}
+.card-book-img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 250ms ease-in-out;
+}
+.card-book-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+}
+/* content */
+.card-book-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--sz-1);
+}
+.card-book-content-title {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    color: var(--primary-color-dark);
+}
+.card-book-content-author {
+    font-size: var(--text-lg);
+    font-weight: 500;
+    color: var(--primary-color-dark);
+    opacity: 0.8;
+    line-height: 1.5;
+}
+.card-book-content-description {
+    font-size: var(--text-base);
+    font-weight: 400;
+    color: var(--primary-color-dark);
+
+    /* line clamp 3 */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+/* footer */
+.card-book-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    
+}
+.card-book-footer-price {
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: var(--primary-color-dark);
+
+    /* truncate */
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+.card-book-footer-btn {
+    position: relative;
+    overflow: hidden;
+
+    color: var(--primary-color-dark);
+    font-size: var(--text-lg);
+
+    padding: var(--sz-1-half) var(--sz-8);
+    border: 2px solid var(--primary-color-dark);
+    border-radius: 9999px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sz-1-half);
+}
+.card-book-footer-btn>span {
+    z-index: 1;
+    transition-property: right, transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+}
+.card-book-footer-btn-icon {
+    position: absolute;
+    right: -100%;
+}
+.card-book-footer-btn-bck {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-dark);
+ 
+    transition: top 250ms ease;
+}
+/* hover */
+.card-book-footer-btn:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+.card-book-footer-btn:hover [class*="bck"] {
+    top: 0;
+}
+.card-book-footer-btn:hover [class*="icon"] {
+    right: 0;
+    transform: translateX(-1rem);
+}
+.card-book-footer-btn:hover [class*="content"] {
+    transform: translateX(-.3rem);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cards-content {
+        grid-auto-columns: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cards-content {
+        grid-auto-columns: 60%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .cards-content {
+        grid-auto-columns: 90%;
+    }
+}
