@@ -36,7 +36,7 @@ a {
 
 /* buttons */
 .button-1 {
-    background-color: var(--cream);
+    background-color: var(--pink);
     border: 2px solid var(--brown);
     box-shadow: var(--brown) 4px 4px 0 0;
     color: var(--brown);

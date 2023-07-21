@@ -7,6 +7,11 @@
     --brown: #422800;
     --cream: #fbeee0;
     --white: #fffaf8;
+    --pink: #FFBFBE;
+    /* --green: #B2DBD2; */
+    --darkgreen: #7DA49C;
+    --green: #BFD9C5;
+    /* --darkgreen: #8AA28F; */
 
     /* Tailwind text size */
     --text-9xl: 8rem;

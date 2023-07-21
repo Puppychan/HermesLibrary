@@ -1,3 +1,4 @@
+/* Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd */
 body {
     background-color: var(--primary-color-light);
     padding: var(--sz-10);
@@ -9,64 +10,95 @@ body {
     flex-direction: column;
 }
 
+:root {
+    --breadcrumb-size: 55px;
+}
+
 /* breadcrumb */
+.breadcrumb-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 ul.breadcrumb {
-    margin-left: 50px;
+    margin-left: var(--breadcrumb-size);
     display: inline-block;
     list-style: none;
 }
+
 ul.breadcrumb li {
+    /* styling outside */
+    background-color: var(--primary-color-light);
+    padding: calc(var(--breadcrumb-size) / 10 - 1px);
+    border-radius: var(--breadcrumb-size);
+
     float: right;
-    padding: 5px;
-    background-color: #59a386;
-    border-radius: 50px;
     position: relative;
-    margin-left: -50px;
+    margin-left: calc(-1 * var(--breadcrumb-size));
     transition: all 0.2s ease;
-    margin-top: 3px;
 }
+
 ul.breadcrumb li a {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
     overflow: hidden;
-    border-radius: 50px;
-    transition: all 0.2s ease;
-    text-decoration: none;
-    height: 50px;
-    color: #509378;
-    background-color: #65ba99;
     text-align: center;
-    min-width: 50px;
-    display: block;
-    line-height: 50px;
-    padding-left: 52px;
-    padding-right: 33.3333333333px;
-    width: 50px;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    font-size: var(--text-xl);
+
+    color: var(--brown);
+    background-color: var(--green);
+    border: 2px var(--darkgreen) solid;
+    box-shadow: var(--darkgreen) 2px 2px 0 0;
+
+    border-radius: var(--breadcrumb-size);
+    height: var(--breadcrumb-size);
+    width: var(--breadcrumb-size);
+    min-width: var(--breadcrumb-size);
+    line-height: var(--breadcrumb-size);
+    padding-left: calc(var(--breadcrumb-size) + 10px);
+    padding-right: calc(var(--breadcrumb-size) / 2 + var(--breadcrumb-size) / 6);
 }
-ul.breadcrumb li a .icon {
-    display: inline-block;
-}
+
 ul.breadcrumb li a .text {
     display: none;
+    font-size: var(--text-lg);
+    transition: all 0.2s ease 0.3s;
     opacity: 0;
-}
-ul.breadcrumb li a:hover {
-    width: 150px;
-    background-color: #77c2a5;
-}
-ul.breadcrumb li a:hover .text {
-    display: inline-block;
-    opacity: 1;
 }
 ul.breadcrumb li:last-child a {
     padding: 0;
 }
-ul.breadcrumb li:last-child:hover {
-    padding: 3px;
-    margin-top: 0;
+
+ul.breadcrumb li:hover a,
+ul.breadcrumb li:focus a {
+    border-color: var(--brown);
+    background-color: var(--pink);
+    box-shadow: var(--brown) 3.5px 3.5px 0 0;
 }
-ul.breadcrumb li:last-child:hover a {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+
+ul.breadcrumb li:not(:last-child):hover a,
+ul.breadcrumb li:not(:last-child):focus a {
+    /* width: calc(var(--breadcrumb-size) * 3); */
+    width: fit-content;
+}
+
+ul.breadcrumb li:hover a .text,
+ul.breadcrumb li:focus a .text {
+    display: inline-block;
+    opacity: 1;
+}
+
+ul.breadcrumb li:last-child:hover,
+ul.breadcrumb li:last-child:focus {
+    transform: scale(1.15);
 }
 
 
@@ -74,13 +106,14 @@ ul.breadcrumb li:last-child:hover a {
 .details-illustration {
     width: 100%;
     height: 60vh;
+    /* aspect-ratio: 1/1; */
     display: grid;
     justify-content: center;
     align-items: center;
     column-gap: var(--sz-3);
     /* row-gap: var(--sz-3); */
     grid-template:
-        "main sub1 price"1fr "main sub2 btn"1fr "main sub3 btn"1fr / 2fr 1.3fr 1fr;
+        "main sub1 price"0.3fr "main sub2 btn"0.3fr "main sub3 btn"0.3fr / 2fr 1.3fr 1fr;
 }
 
 img[class*="details-illustration"] {
@@ -179,7 +212,9 @@ hr {
         padding: var(--sz-6);
         gap: var(--sz-12);
     }
-
+    .breadcrumb-container {
+        justify-content: center;
+    }
     .details-illustration {
         height: auto;
         column-gap: 0;
@@ -229,8 +264,9 @@ hr {
     }
 
     .details-illustration {
+        height: 80vh;
         grid-template:
-            "main main main"1.4fr "sub1 sub2 sub3"1fr "price price price"0.4fr "btn btn btn"0.1fr / 1fr 1fr 1fr;
+            "main main main"0.6fr "sub1 sub2 sub3"0.2fr "price price price"0.1fr "btn btn btn"0.1fr / 1fr 1fr 1fr;
 
     }
 
