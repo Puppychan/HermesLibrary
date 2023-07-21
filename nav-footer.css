@@ -1,0 +1,287 @@
+/* nav */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--sz-20);
+    padding: var(--sz-1) var(--sz-7);
+    z-index: 50;
+
+    /* background-color: var(--white); */
+
+    border-bottom: 1px solid var(--brown);
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    z-index: -1;
+
+    background-color: rgba(255, 250, 248, 0.9);
+    backdrop-filter: blur(10px);
+
+}
+
+header .nav-logo {
+    display: inline-block;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    object-position: center;
+}
+
+header #nav-check,
+header .nav-btn {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--sz-10);
+}
+
+header nav a {
+    font-size: var(--text-xl);
+    font-weight: 400;
+    color: var(--primary-color-dark);
+    padding: 0 var(--sz-3);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+header nav a::after {
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+
+    width: 0;
+    opacity: 0.2;
+
+    content: "";
+    display: block;
+    height: 2px;
+    border-radius: 1rem;
+    background-color: var(--brown);
+    transition: all 0.2s ease-in-out;
+}
+
+header nav a:hover {
+    transform: scale(1);
+    opacity: 1;
+    color: var(--brown)
+}
+
+header nav a:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    padding: var(--sz-16) var(--sz-7);
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap: var(--sz-7);
+    background-color: var(--primary-color-dark);   
+    /* border-top: 1px solid var(--brown); */
+}
+footer nav.sub {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: var(--sz-5);
+}
+footer nav.main {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: var(--sz-5);
+}
+footer a {
+    color: var(--white);
+    transition: all 0.2s ease-in-out;
+}
+/* sub */
+footer nav.sub a {
+    font-size: var(--text-2xl);
+    width: var(--sz-14);
+    opacity: 0.8;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1.5px solid var(--gray);
+    color: var(--primary-color-dark);
+    background-color: var(--primary-color-light);
+    /* background-color: var(--green); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer nav.sub a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    border-color: var(--primary-color-light);
+    background-color: var(--cream);
+    filter: brightness(110%);
+}
+/* main */
+footer nav.main a {
+    font-size: var(--text-xl);
+    padding: 0 var(--sz-2);
+}
+footer nav.main a::after {
+    position: absolute;
+    bottom: -0.3rem;
+    left: 0;
+
+    width: 0;
+    opacity: 0.2;
+
+    content: "";
+    display: block;
+    height: 2.5px;
+    border-radius: 1rem;
+    background-color: var(--primary-color-light);
+    transition: all 0.2s ease-in-out;
+
+}
+footer nav.main a:hover {
+    transform: scale(1.05);
+}
+footer nav.main a:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    header .nav-btn {
+        display: inline-block;
+        /* position: absolute;
+        right: 0px;
+        top: 0px; */
+        height: 80%;
+    }
+
+    header .nav-btn>label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        aspect-ratio: 1/1;
+        padding: 13px;
+        font-size: var(--text-3xl);
+        color: var(--primary-color-dark);
+        cursor: pointer;
+
+        border-radius: var(--sz-1);
+    }
+
+    header .nav-btn>label:hover,
+    header #nav-check:checked~.nav-btn>label {
+        background-color: var(--primary-color-light);
+        color: var(--brown);
+    }
+
+    header nav {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+
+        background-color: var(--primary-color-dark);
+        transition: opacity 0.3s ease-in;
+        overflow-y: hidden;
+
+        box-shadow: rgba(71, 73, 76, 0.3) 0px 8px 24px;
+    }
+
+    header nav>a {
+        display: block;
+        width: 100%;
+        padding: var(--sz-5) var(--sz-5);
+        color: var(--cream);
+        transform: scale(1);
+    }
+
+    header nav>a:hover,
+    header nav>a:focus,
+    header nav>a:active {
+        background-color: var(--primary-color-light);
+        font-weight: 500;
+        letter-spacing: 0.024;
+    }
+
+    header nav>a:hover::after,
+    header nav>a:focus::after {
+        width: 0%;
+        opacity: 0;
+    }
+
+    header #nav-check:not(:checked)~nav {
+        height: 0px;
+        padding: 0;
+        opacity: 0;
+    }
+
+    header #nav-check:checked~nav {
+        opacity: 1;
+        height: fit-content;
+        padding: var(--sz-10) 0;
+        /* display: flex; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: var(--sz-1) var(--sz-3);
+    }
+}
+@media screen and (max-width: 640px){
+    footer nav.sub {
+        gap: var(--sz-3);
+    }
+    footer nav.main {
+        flex-direction: column;
+        gap: var(--sz-3);
+    }
+    footer nav.sub a {
+        font-size: var(--text-2xl);
+        width: var(--sz-12);
+    }
+    footer nav.main a {
+        font-size: var(--text-lg);
+        padding: 0 var(--sz-half);
+    }
+}
