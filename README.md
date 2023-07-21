@@ -1,0 +1,5 @@
+Science fictions:
+
+- https://www.esquire.com/entertainment/books/g39358054/best-sci-fi-books/
+- Cook book: https://www.amazon.com/b/?node=4196&ref_=Oct_d_odnav_d_6_6&pd_rd_w=tcYUA&content-id=amzn1.sym.da9d5993-999b-41a1-9ebb-f85ff6fd0fb0&pf_rd_p=da9d5993-999b-41a1-9ebb-f85ff6fd0fb0&pf_rd_r=R7Q274TSKC3X6RC2QRXG&pd_rd_wg=x8rQB&pd_rd_r=83fa23a8-9426-400c-bf6c-a2c2cf0a7731
+- Photography: https://www.smithsonianmag.com/arts-culture/the-ten-best-photography-books-of-2021-180979180/

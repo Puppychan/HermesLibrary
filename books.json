@@ -8,7 +8,7 @@
                     "books": [
                         {
                             "title": "The Secret History",
-                            "price":  "11",
+                            "price": "11",
                             "author": [
                                 "Donna Tartt"
                             ],
@@ -16,7 +16,7 @@
                         },
                         {
                             "title": "Normal People",
-                            "price":  "15",
+                            "price": "15",
                             "author": [
                                 "Sally Rooney"
                             ],
@@ -24,13 +24,105 @@
                         },
                         {
                             "title": "The Goldfinch",
-                            "price":  "9",
+                            "price": "9",
                             "author": [
                                 "Donna Tartt"
                             ],
                             "description": "Aged thirteen, Theo Decker, son of a devoted mother and a reckless, largely absent father, survives an accident that otherwise tears his life apart. Alone and rudderless in New York, he is taken in by the family of a wealthy friend. He is tormented by an unbearable longing for his mother, and down the years clings to the thing that most reminds him of her: a small, strangely captivating painting that ultimately draws him into the criminal underworld. As he grows up, Theo learns to glide between the drawing rooms of the rich and the dusty antiques store where he works. He is alienated and in love - and his talisman, the painting, places him at the centre of a narrowing, ever more dangerous circle.\nThe Goldfinch is a haunted odyssey through present-day America and a drama of enthralling power. Combining unforgettably vivid characters and thrilling suspense, it is a beautiful, addictive triumph - a sweeping story of loss and obsession, of survival and self-invention, of the deepest mysteries of love, identity and fate."
                         }
-
+                    ]
+                },
+                {
+                    "title": "Science Fiction",
+                    "books": [
+                        {
+                            "title": "The Echo Wife",
+                            "price": "11",
+                            "author": [
+                                "Sarah Gailey"
+                            ],
+                            "description": "Westworld meets The Stepford Wives in this gripping revenge thriller about the unlikely alliance between a woman and her clone. When geneticist Evelyn Caldwell learns that her husband Nathan is cheating on her, she soon ferrets out the truth—rather than work on their strained marriage, Nathan stole Evelyn's proprietary cloning technology and replaced her with a more docile substitute. But when Evelyn finds her clone standing over Nathan's dead body, crying, “It was self-defense,” these quasi-sisters will have to work together to conceal the crime and preserve Evelyn's scientific reputation. The Echo Wife's juicy premise runs deep, raising eerie questions about love, justice, and individuality."
+                        },
+                        {
+                            "title": "Snow Crash",
+                            "price": "12",
+                            "author": [
+                                "Neal Stephenson"
+                            ],
+                            "description": "Long before Facebook's Metaverse, Stephenson coined the term in this cyberpunk acid trip of a novel. Snow Crash's Hiro Protagonist lives a double life: in reality, he delivers pizzas for the Mafia, but in the Metaverse, he's a hacker and a warrior prince. When he learns about a lethal virus picking off hackers one by one, his race to find its dastardly architect sends him pinballing through everything from technological conspiracy to ancient Sumerian mythology. Sexy, action-packed, and downright prophetic in its vision of our virtual future, you'll want to strap in tight for this dizzying techno-thriller."
+                        },
+                        {
+                            "title": "Contact: A Novel",
+                            "price": "9",
+                            "author": [
+                                "Carl Sagan"
+                            ],
+                            "description": "The great Carl Sagan wrote dozens of works of nonfiction, but just one novel: Contact, a 1985 bestseller that later became a Jodie Foster flick. Sagan's preoccupations with intelligent life come into view through Dr. Ellie Arroway, a principled astronomer who detects and decrypts a deep-space transmission from a planetary system far, far away. At the transmission's urging, the nations of the world race to build a mysterious machine, but faith leaders call the enterprise (and the rationality of science) into question. Through this thoughtful, layered story, Sagan plumbs the often antagonistic relationship between science and religion, asking if perhaps both are seeking contact in different forms. After all, disciples from each camp can agree on one thing: “The universe is a pretty big place. If it's just us, seems like an awful waste of space.”"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Non-Fiction",
+            "subcategories": [
+                {
+                    "title": "Cooking and Food",
+                    "books": [
+                        {
+                            "title": "Everyday Bread: 100 Recipes for Baking Bread on Your Schedule",
+                            "price": "20",
+                            "author": [
+                                "America's Test Kitchen"
+                            ],
+                            "description": "Introducing the only cookbook to put homemade bread and convenience in the same sentence—whether you're a beginner baker or an enthusiast. Learn seven core recipes and then manipulate them into different shapes and flavors with ease for tons of new breads. Fit bread into your schedule with flexible, customizable timetables. Maybe you're looking to get bread on the table tonight, or maybe spreading steps over a few days is better for you. Recipes follow both paths, with new, streamlined techniques, no specialty equipment, and even loaves with no yeast, kneading, or shaping. You won't believe the chewy, open crumb and ultracrisp crust you'll get from no-knead Dutch oven-baked loaves, the ease of quick breads that come together with a stir, and the dinner possibilities for flatbreads of all kinds."
+                        },
+                        {
+                            "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]",
+                            "price": "30",
+                            "author": [
+                                "Ken Forkish "
+                            ],
+                            "description": "NEW YORK TIMES BESTSELLER • From Portland's most acclaimed and beloved baker comes this must-have baking guide, featuring recipes for world-class breads and pizzas and a variety of schedules suited for the home baker.\nThere are few things more satisfying than biting into a freshly made, crispy-on-the-outside, soft-and-supple-on-the-inside slice of perfectly baked bread. For Portland-based baker Ken Forkish, well-made bread is more than just a pleasure—it is a passion that has led him to create some of the best and most critically lauded breads and pizzas in the country.\nIn Flour Water Salt Yeast, Forkish translates his obsessively honed craft into scores of recipes for rustic boules and Neapolitan-style pizzas, all suited for the home baker. Forkish developed and tested all of the recipes in his home oven, and his impeccable formulas and clear instructions result in top-quality artisan breads and pizzas that stand up against those sold in the best bakeries anywhere.\nWhether you're a total beginner or a serious baker, Flour Water Salt Yeast has a recipe that suits your skill level and time constraints: Start with a straight dough and have fresh bread ready by supper time, or explore pre-ferments with a bread that uses biga or poolish. If you're ready to take your baking to the next level, follow Forkish's step-by-step guide to making a levain starter with only flour and water, and be amazed by the delicious complexity of your naturally leavened bread. Pizza lovers can experiment with a variety of doughs and sauces to create the perfect pie using either a pizza stone or a cast-iron skillet.\nFlour Water Salt Yeast is more than just a collection of recipes for amazing bread and pizza—it offers a complete baking education, with a thorough yet accessible explanation of the tools and techniques that set artisan bread apart. Featuring a tutorial on baker's percentages, advice for manipulating ingredients ratios to create custom doughs, tips for adapting bread baking schedules to fit your day-to-day life, and an entire chapter that demystifies the levain-making process, Flour Water Salt Yeast is an indispensable resource for bakers who want to make their daily bread exceptional bread."
+                        },
+                        {
+                            "title": "Mastering Pizza: The Art and Practice of Handmade Pizza, Focaccia, and Calzone [A Cookbook]",
+                            "price": "30",
+                            "author": [
+                                "Marc Vetri",
+                                "David Joachim"
+                            ],
+                            "description": "A revolutionary guide to making delicious pizza at home, offering a variety of base doughs so that your pizza will turn out perfect no matter what kind of oven or equipment you have.\nPizza remains America's favorite food, but one that many people hesitate to make at home. In Mastering Pizza, award-winning chef Marc Vetri tackles the topic with his trademark precision, making perfect pizza available to anyone. The recipes—gleaned from years spent researching recipes in Italy and perfecting them in America—have a variety of base doughs of different hydration levels, which allow home cooks to achieve the same results with a regular kitchen oven as they would with a professional pizza oven. The book covers popular standards like Margherita and Carbonara while also featuring unexpected toppings such as mussels and truffles—and even a dessert pizza made with Nutella. With transporting imagery from Italy and hardworking step-by-step photos to demystify the process, Mastering Pizza will help you make pizza as delicious as you find in Italy."
+                        }
+                    ]
+                },
+                {
+                    "title": "Art and Photography",
+                    "books": [
+                        {
+                            "title": "Seeing Silence",
+                            "price": "15",
+                            "author": [
+                                "Pete McBride "
+                            ],
+                            "description": "Dawn mist floats over the Okavango Delta in Botswana. / The northern lights dance across the sky over Norway's fjords. / On the western side of the Tetons in Idaho, deep silence resides in the cold winter. These are just a few of the evocative captions in Pete McBride's sweeping new book of photography, Seeing Silence. And if you know McBride's work—he has traveled to 75 countries over his two-decades-plus career—you already know that these images are stunning. But what is more impressive, especially in our nonstop, clamorous, crazy world is the sense of silence these photos seem to capture. Your heart rate and breathing almost slow down as you take in photo of magnificent place after photo of magnificent place. No man-made noise, only the sounds of nature and all too rare sound of silence.\nThis book, besides being a reminder of what we are all too often missing in our everyday life, is a call to stillness, as this seven-continent visual tour of global quietude will both inspire and calm. McBride has given us a gift with this work, by showing us how much the natural world has to offer, if only we will slow down and listen. — Quentin Nardi"
+                        },
+                        {
+                            "title": "The Day May Break",
+                            "price": "35",
+                            "author": [
+                                "Nick Brandt"
+                            ],
+                            "description": "The photo editors at Smithsonian magazine felt it was impossible not to include a visual story about climate change in this year's list. And no other book this year does what Nick Brandt's The Day May Break does so beautifully and poignantly—portraying people and animals impacted by environmental degradation and destruction.\nPhotographed in Zimbabwe and Kenya in late 2020, The Day May Break is the first part of a global series by Brandt. The people Brandt photographs have all been badly affected by climate change—some displaced by cyclones that destroyed their homes, others such as farmers impoverished by years-long droughts. The animals, all from five sanctuaries and conservancies, are almost all long-term rescues, victims of everything from the poaching of their parents to habitat destruction and poisoning. These animals can never be released back into the wild. As a result, they are habituated, and so it was safe for human strangers to be close to them, photographed in the same frame at the same time.\nLooking at these photos, one becomes acutely aware of how a warming planet and a changing climate has impacted these lives, both human and animal—and how much has been lost to them and all of us, already. However, these people and animals are the survivors, and there lies possibility and hope. — Q.N."
+                        },
+                        {
+                            "title": "Wonderland",
+                            "price": "20",
+                            "author": [
+                                "Annie Leibovitz"
+                            ],
+                            "description": "Even if you don't know photography, you undoubtedly know the iconic work of Annie Leibovitz. From her groundbreaking work at Rolling Stone in the 1970s to her work at Vogue and Vanity Fair in the 1980s, and through present day, Leibovitz has left an indelible, visual mark on our culture. With her distinctive style and sharp eye, she transforms her subjects—ranging from actors and activists to musicians and athletes—into cultural icons.\nWonderland features more than 340 photographs, the majority of which were previously uncollected—including over 30 images never before published and more than 90 images that have not been seen since their original magazine publication. This gorgeous anthology showcases Leibovitz's particular draw towards fashion, which has served as a vehicle for many of her most ambitious magazine covers and portrait photo shoots. In addition, she has written descriptive backstories, so one gets an even deeper look into how these magical images came together. Leibovitz's new book is a passport to a true wonderland, where fashion is revealed in unexpected subjects and places, and photography is celebrated in its highest form. — Q.N."
+                        }
                     ]
                 }
             ]

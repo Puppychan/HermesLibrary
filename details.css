@@ -1,6 +1,5 @@
 /* Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd */
 body {
-    background-color: var(--primary-color-light);
     padding: var(--sz-10);
 
     display: flex;
@@ -55,8 +54,8 @@ ul.breadcrumb li a {
 
     color: var(--brown);
     background-color: var(--green);
-    border: 2px var(--darkgreen) solid;
-    box-shadow: var(--darkgreen) 2px 2px 0 0;
+    border: 2px var(--brown) solid;
+    box-shadow: var(--brown) 2px 2px 0 0;
 
     border-radius: var(--breadcrumb-size);
     height: var(--breadcrumb-size);
@@ -81,8 +80,12 @@ ul.breadcrumb li:hover a,
 ul.breadcrumb li:focus a {
     border-color: var(--brown);
     background-color: var(--pink);
-    box-shadow: var(--brown) 3.5px 3.5px 0 0;
+    box-shadow: var(--brown) 3px 3px 0 0;
 }
+ul.breadcrumb li:active a {
+    box-shadow: var(--brown) 1px 1px 0 0;
+    transform: translate(2px, 2px);
+} 
 
 ul.breadcrumb li:not(:last-child):hover a,
 ul.breadcrumb li:not(:last-child):focus a {
@@ -262,7 +265,11 @@ hr {
         padding: var(--sz-10) var(--sz-4);
         gap: var(--sz-7);
     }
-
+    ul.breadcrumb li:not(:last-child):hover a,
+    ul.breadcrumb li:not(:last-child):focus a {
+        padding-left: var(--breadcrumb-size);
+        padding-right: calc(var(--breadcrumb-size) / 6);
+    }
     .details-illustration {
         height: 80vh;
         grid-template:
