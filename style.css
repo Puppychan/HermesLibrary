@@ -102,7 +102,22 @@ a {
     width: 100%;
     font-size: var(--text-4xl);
     text-align: center;
+    font-weight: 700;
+    color: var(--primary-color-dark);
+    transition: 0.2s ease-in-out;
+}
+.cards-header::after, .cards-header::before {
+    content: " ✰ ";
+    display: inline;
+    width: 100%;
+    color: var(--primary-color-light);
+}
 
+.cards-header:hover,
+.cards-header:focus,
+.cards-header:active {
+    opacity: 0.8;
+    transform: scale(1.02);
 }
 
 .cards-content {
@@ -150,7 +165,7 @@ a {
     overflow: hidden;
     width: 100%;
     height: var(--sz-80);
-    border-radius: 0.5rem;
+    border-radius: var(--sz-3);
 
     display: flex;
     align-items: center;
@@ -175,23 +190,26 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(0);
+    transition: all 0.3s ease-in-out;
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
 }
 
 .card-image-title {
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
+    top: 50%;
+    transform: scale(1.24) translateY(-50%);
     left: 0;
     width: 100%;
     transition: all 0.3s ease-in-out;
     padding: var(--sz-5);
     color: var(--white);
-    font-size: var(--text-2xl);
+    font-size: var(--text-3xl);
     font-weight: 700;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    letter-spacing: 0.025em;
-    transform: scale(1.24);
+    letter-spacing: 0.05em;
     opacity: 0.8;
 }
 
@@ -199,9 +217,13 @@ a {
     transform: scale(1.3);
 }
 
+.card-image:hover .card-image-overlay {
+    backdrop-filter: blur(7px);
+}
+
 .card-image:hover .card-image-title {
     letter-spacing: 0em;
-    transform: scale(1);
+    transform: scale(1) translateY(-50%);
     opacity: 1;
 }
 
@@ -393,6 +415,32 @@ a {
 
 @media screen and (max-width: 640px) {
     .cards-content {
-        grid-auto-columns: 90%;
+        grid-auto-columns: 78%;
+    }
+    .cards-header {
+        font-size: var(--text-3xl);
+    }
+    .cards-header::after, .cards-header::before {
+        display: none;
+    }
+
+    .card-image-title {
+        font-size: var(--text-2xl);
+    }
+    
+    .card-book-content-title {
+        font-size: var(--text-xl);
+    }
+    .card-book-content-author {
+        font-size: var(--text-base);
+    }
+    .card-book-content-description {
+        font-size: var(--text-sm);
+    }
+    .card-book-footer-price {
+        font-size: var(--text-lg);
+    }
+    .card-book-footer-btn {
+        font-size: var(--text-base);
     }
 }

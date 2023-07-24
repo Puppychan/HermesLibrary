@@ -130,7 +130,6 @@ footer nav.sub a {
     opacity: 0.8;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    border: 1.5px solid var(--gray);
     color: var(--primary-color-dark);
     background-color: var(--primary-color-light);
     /* background-color: var(--green); */
@@ -143,7 +142,6 @@ footer nav.sub a {
 footer nav.sub a:hover {
     opacity: 1;
     transform: scale(1.1);
-    border-color: var(--primary-color-light);
     background-color: var(--cream);
     filter: brightness(110%);
 }
