@@ -1,9 +1,6 @@
 Do I need ref:
-    - The books description
-    - Image resource
-Do images has to be related to the book content?
-When testing the web, can I assume you have the internet?
-Rich media -> Dont need download from Internet?
+    - The books description no
+    - Image resource -yes
 
 Science fictions:
 

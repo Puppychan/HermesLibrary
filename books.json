@@ -4,60 +4,66 @@
             "title": "Fiction",
             "subcategories": [
                 {
-                    "title": "Literary Fiction",
+                    "title": "Romance Fiction",
                     "books": [
                         {
-                            "title": "The Secret History",
+                            "id": "romance-fiction-1",
+                            "title": "To All the Boys I've Loved Before",
                             "price": "11",
                             "author": [
-                                "Donna Tartt"
+                                "Jenny Han"
                             ],
-                            "description": "Under the influence of their charismatic classics professor, a group of clever, eccentric misfits at an elite New England college discover a way of thinking and living that is a world away from the humdrum existence of their contemporaries. But when they go beyond the boundaries of normal morality they slip gradually from obsession to corruption and betrayal, and at last—inexorably—into evil."
+                            "description": "<i>To All the Boys I've Loved Before</i> is now a major motion picture streaming on Netflix!\nWhat if all the crushes you ever had found out how you felt about them...all at once? \nSixteen-year-old Lara Jean Song keeps her love letters in a hatbox her mother gave her. They aren't love letters that anyone else wrote for her; these are ones she's written. One for every boy she's ever loved - five in all. When she writes, she pours out her heart and soul and says all the things she would never say in real life, because her letters are for her eyes only. Until the day her secret letters are mailed, and suddenly, Lara Jean's love life goes from imaginary to out of control."
                         },
                         {
-                            "title": "Normal People",
-                            "price": "15",
+                            "id": "romance-fiction-2",
+                            "title": "Pride & Prejudice",
+                            "price": "11",
                             "author": [
-                                "Sally Rooney"
+                                "Jane Austen"
                             ],
-                            "description": "At school Connell and Marianne pretend not to know each other. He's popular and well-adjusted, star of the school soccer team while she is lonely, proud, and intensely private. But when Connell comes to pick his mother up from her housekeeping job at Marianne's house, a strange and indelible connection grows between the two teenagers - one they are determined to conceal.\nA year later, they're both studying at Trinity College in Dublin. Marianne has found her feet in a new social world while Connell hangs at the sidelines, shy and uncertain. Throughout their years in college, Marianne and Connell circle one another, straying toward other people and possibilities but always magnetically, irresistibly drawn back together. Then, as she veers into self-destruction and he begins to search for meaning elsewhere, each must confront how far they are willing to go to save the other.\nSally Rooney brings her brilliant psychological acuity and perfectly spare prose to a story that explores the subtleties of class, the electricity of first love, and the complex entanglements of family and friendship."
+                            "description": "One of Jane Austen's most beloved works, <i>Pride and Prejudice</i>, is vividly brought to life by Academy Award nominee Rosamund Pike (Gone Girl). In her bright and energetic performance of this British classic, she expertly captures Austen's signature wit and tone. Her attention to detail, her literary background, and her performance in the 2005 feature film version of the novel provide the perfect foundation from which to convey the story of Elizabeth Bennet, her four sisters, and the inimitable Mr. Darcy. \nIn Pride and Prejudice, the Bennet sisters try to find their way in the repressive strictures of 19th-century society. Austen shows the folly of judging by first impressions and the experience of falling in love, and she superbly describes a world which, despite being more than two centuries old, still resonates with modern concerns. "
                         },
                         {
-                            "title": "The Goldfinch",
-                            "price": "9",
+                            "id": "romance-fiction-3",
+                            "title": "Twilight: The Twilight Saga",
+                            "price": "16",
                             "author": [
-                                "Donna Tartt"
+                                "Stephenie Meyer"
                             ],
-                            "description": "Aged thirteen, Theo Decker, son of a devoted mother and a reckless, largely absent father, survives an accident that otherwise tears his life apart. Alone and rudderless in New York, he is taken in by the family of a wealthy friend. He is tormented by an unbearable longing for his mother, and down the years clings to the thing that most reminds him of her: a small, strangely captivating painting that ultimately draws him into the criminal underworld. As he grows up, Theo learns to glide between the drawing rooms of the rich and the dusty antiques store where he works. He is alienated and in love - and his talisman, the painting, places him at the centre of a narrowing, ever more dangerous circle.\nThe Goldfinch is a haunted odyssey through present-day America and a drama of enthralling power. Combining unforgettably vivid characters and thrilling suspense, it is a beautiful, addictive triumph - a sweeping story of loss and obsession, of survival and self-invention, of the deepest mysteries of love, identity and fate."
+                            "description": "About three things I was certain.\nFirst, Edward was a vampire.\nSecond, there was a part of him, and I didn't know how dominant that part might be, that thirsted for my blood.\nAnd Third, I was unconditionally and irrevocably in love with him.\nIsabella Swan's move to Forks, a small, perpetually rainy town in Washington, could have been the most boring move she ever made. But once she meets the mysterious and alluring Edward Cullen, Isabella's life takes a thrilling and terrifying turn. Up until now, Edward has managed to keep his vampire identity a secret in the small community he lives in, but now nobody is safe, especially Isabella, the person Edward holds most dear. The lovers find themselves balanced precariously on the point of a knife, between desire and danger.\nDeeply sensuous and extraordinarily suspenseful, Twilight captures the struggle between defying our instincts and satisfying our desires. This is a love story with bite."
                         }
                     ]
                 },
                 {
-                    "title": "Science Fiction",
+                    "title": "Fantasy Fiction",
                     "books": [
                         {
-                            "title": "The Echo Wife",
-                            "price": "11",
+                            "id": "fantasy-fiction-1",
+                            "title": "Harry Potter and the Goblet of Fire",
+                            "price": "10.40",
                             "author": [
-                                "Sarah Gailey"
+                                "J.K. Rowling"
                             ],
-                            "description": "Westworld meets The Stepford Wives in this gripping revenge thriller about the unlikely alliance between a woman and her clone. When geneticist Evelyn Caldwell learns that her husband Nathan is cheating on her, she soon ferrets out the truth—rather than work on their strained marriage, Nathan stole Evelyn's proprietary cloning technology and replaced her with a more docile substitute. But when Evelyn finds her clone standing over Nathan's dead body, crying, “It was self-defense,” these quasi-sisters will have to work together to conceal the crime and preserve Evelyn's scientific reputation. The Echo Wife's juicy premise runs deep, raising eerie questions about love, justice, and individuality."
+                            "description": "There will be three tasks, spaced throughout the school year, and they will test the champions in many different ways ... their magical prowess - their daring - their powers of deduction - and, of course, their ability to cope with danger.'\nThe Triwizard Tournament is to be held at Hogwarts. Only wizards who are over seventeen are allowed to enter - but that doesn't stop Harry dreaming that he will win the competition. Then at Hallowe'en, when the Goblet of Fire makes its selection, Harry is amazed to find his name is one of those that the magical cup picks out. He will face death-defying tasks, dragons and Dark wizards, but with the help of his best friends, Ron and Hermione, he might just make it through - alive!\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners. "
                         },
                         {
-                            "title": "Snow Crash",
+                            "id": "fantasy-fiction-2",
+                            "title": "Harry Potter and the Sorcerer's Stone",
                             "price": "12",
                             "author": [
-                                "Neal Stephenson"
+                                "J.K. Rowling"
                             ],
-                            "description": "Long before Facebook's Metaverse, Stephenson coined the term in this cyberpunk acid trip of a novel. Snow Crash's Hiro Protagonist lives a double life: in reality, he delivers pizzas for the Mafia, but in the Metaverse, he's a hacker and a warrior prince. When he learns about a lethal virus picking off hackers one by one, his race to find its dastardly architect sends him pinballing through everything from technological conspiracy to ancient Sumerian mythology. Sexy, action-packed, and downright prophetic in its vision of our virtual future, you'll want to strap in tight for this dizzying techno-thriller."
+                            "description": "<b>Harry Potter and the Sorcerer's Stone will be streaming in Audible Plus through August 4th, 2023.</b>\nTurning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\nHarry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners."
                         },
                         {
-                            "title": "Contact: A Novel",
-                            "price": "9",
+                            "id": "fantasy-fiction-3",
+                            "title": "Harry Potter and the Prisoner of Azkaban",
+                            "price": "15",
                             "author": [
-                                "Carl Sagan"
+                                "J.K. Rowling"
                             ],
-                            "description": "The great Carl Sagan wrote dozens of works of nonfiction, but just one novel: Contact, a 1985 bestseller that later became a Jodie Foster flick. Sagan's preoccupations with intelligent life come into view through Dr. Ellie Arroway, a principled astronomer who detects and decrypts a deep-space transmission from a planetary system far, far away. At the transmission's urging, the nations of the world race to build a mysterious machine, but faith leaders call the enterprise (and the rationality of science) into question. Through this thoughtful, layered story, Sagan plumbs the often antagonistic relationship between science and religion, asking if perhaps both are seeking contact in different forms. After all, disciples from each camp can agree on one thing: “The universe is a pretty big place. If it's just us, seems like an awful waste of space.”"
+                            "description": "'Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board and we can take you anywhere you want to go.'\nWhen the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss.\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners.    "
                         }
                     ]
                 }
@@ -70,6 +76,7 @@
                     "title": "Cooking and Food",
                     "books": [
                         {
+                            "id": "cooking-and-food-1",
                             "title": "Everyday Bread: 100 Recipes for Baking Bread on Your Schedule",
                             "price": "20",
                             "author": [
@@ -78,6 +85,7 @@
                             "description": "Introducing the only cookbook to put homemade bread and convenience in the same sentence—whether you're a beginner baker or an enthusiast. Learn seven core recipes and then manipulate them into different shapes and flavors with ease for tons of new breads. Fit bread into your schedule with flexible, customizable timetables. Maybe you're looking to get bread on the table tonight, or maybe spreading steps over a few days is better for you. Recipes follow both paths, with new, streamlined techniques, no specialty equipment, and even loaves with no yeast, kneading, or shaping. You won't believe the chewy, open crumb and ultracrisp crust you'll get from no-knead Dutch oven-baked loaves, the ease of quick breads that come together with a stir, and the dinner possibilities for flatbreads of all kinds."
                         },
                         {
+                            "id": "cooking-and-food-2",
                             "title": "Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]",
                             "price": "30",
                             "author": [
@@ -86,6 +94,7 @@
                             "description": "NEW YORK TIMES BESTSELLER • From Portland's most acclaimed and beloved baker comes this must-have baking guide, featuring recipes for world-class breads and pizzas and a variety of schedules suited for the home baker.\nThere are few things more satisfying than biting into a freshly made, crispy-on-the-outside, soft-and-supple-on-the-inside slice of perfectly baked bread. For Portland-based baker Ken Forkish, well-made bread is more than just a pleasure—it is a passion that has led him to create some of the best and most critically lauded breads and pizzas in the country.\nIn Flour Water Salt Yeast, Forkish translates his obsessively honed craft into scores of recipes for rustic boules and Neapolitan-style pizzas, all suited for the home baker. Forkish developed and tested all of the recipes in his home oven, and his impeccable formulas and clear instructions result in top-quality artisan breads and pizzas that stand up against those sold in the best bakeries anywhere.\nWhether you're a total beginner or a serious baker, Flour Water Salt Yeast has a recipe that suits your skill level and time constraints: Start with a straight dough and have fresh bread ready by supper time, or explore pre-ferments with a bread that uses biga or poolish. If you're ready to take your baking to the next level, follow Forkish's step-by-step guide to making a levain starter with only flour and water, and be amazed by the delicious complexity of your naturally leavened bread. Pizza lovers can experiment with a variety of doughs and sauces to create the perfect pie using either a pizza stone or a cast-iron skillet.\nFlour Water Salt Yeast is more than just a collection of recipes for amazing bread and pizza—it offers a complete baking education, with a thorough yet accessible explanation of the tools and techniques that set artisan bread apart. Featuring a tutorial on baker's percentages, advice for manipulating ingredients ratios to create custom doughs, tips for adapting bread baking schedules to fit your day-to-day life, and an entire chapter that demystifies the levain-making process, Flour Water Salt Yeast is an indispensable resource for bakers who want to make their daily bread exceptional bread."
                         },
                         {
+                            "id": "cooking-and-food-3",
                             "title": "Mastering Pizza: The Art and Practice of Handmade Pizza, Focaccia, and Calzone [A Cookbook]",
                             "price": "30",
                             "author": [
@@ -100,6 +109,7 @@
                     "title": "Art and Photography",
                     "books": [
                         {
+                            "id": "art-and-photography-1",
                             "title": "Seeing Silence",
                             "price": "15",
                             "author": [
@@ -108,6 +118,7 @@
                             "description": "Dawn mist floats over the Okavango Delta in Botswana. / The northern lights dance across the sky over Norway's fjords. / On the western side of the Tetons in Idaho, deep silence resides in the cold winter. These are just a few of the evocative captions in Pete McBride's sweeping new book of photography, Seeing Silence. And if you know McBride's work—he has traveled to 75 countries over his two-decades-plus career—you already know that these images are stunning. But what is more impressive, especially in our nonstop, clamorous, crazy world is the sense of silence these photos seem to capture. Your heart rate and breathing almost slow down as you take in photo of magnificent place after photo of magnificent place. No man-made noise, only the sounds of nature and all too rare sound of silence.\nThis book, besides being a reminder of what we are all too often missing in our everyday life, is a call to stillness, as this seven-continent visual tour of global quietude will both inspire and calm. McBride has given us a gift with this work, by showing us how much the natural world has to offer, if only we will slow down and listen. — Quentin Nardi"
                         },
                         {
+                            "id": "art-and-photography-2",
                             "title": "The Day May Break",
                             "price": "35",
                             "author": [
@@ -116,6 +127,7 @@
                             "description": "The photo editors at Smithsonian magazine felt it was impossible not to include a visual story about climate change in this year's list. And no other book this year does what Nick Brandt's The Day May Break does so beautifully and poignantly—portraying people and animals impacted by environmental degradation and destruction.\nPhotographed in Zimbabwe and Kenya in late 2020, The Day May Break is the first part of a global series by Brandt. The people Brandt photographs have all been badly affected by climate change—some displaced by cyclones that destroyed their homes, others such as farmers impoverished by years-long droughts. The animals, all from five sanctuaries and conservancies, are almost all long-term rescues, victims of everything from the poaching of their parents to habitat destruction and poisoning. These animals can never be released back into the wild. As a result, they are habituated, and so it was safe for human strangers to be close to them, photographed in the same frame at the same time.\nLooking at these photos, one becomes acutely aware of how a warming planet and a changing climate has impacted these lives, both human and animal—and how much has been lost to them and all of us, already. However, these people and animals are the survivors, and there lies possibility and hope. — Q.N."
                         },
                         {
+                            "id": "art-and-photography-3",
                             "title": "Wonderland",
                             "price": "20",
                             "author": [
