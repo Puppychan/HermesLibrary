@@ -2,6 +2,14 @@
     "books": [
         {
             "title": "Fiction",
+            "refs": [
+                "https://www.pinterest.com/pin/768637861425287470/",
+                "https://www.pinterest.com/pin/12666442691963579/",
+                "https://www.pinterest.com/pin/1067423549157380724/",
+                "https://www.pinterest.com/pin/129619295533686923/",
+                "https://www.pinterest.com/pin/62276407319422122/",
+                "https://www.pinterest.com/pin/1112741020404423883/"
+            ],
             "subcategories": [
                 {
                     "title": "Romance Fiction",
@@ -13,7 +21,22 @@
                             "author": [
                                 "Jenny Han"
                             ],
-                            "description": "<i>To All the Boys I've Loved Before</i> is now a major motion picture streaming on Netflix!\nWhat if all the crushes you ever had found out how you felt about them...all at once? \nSixteen-year-old Lara Jean Song keeps her love letters in a hatbox her mother gave her. They aren't love letters that anyone else wrote for her; these are ones she's written. One for every boy she's ever loved - five in all. When she writes, she pours out her heart and soul and says all the things she would never say in real life, because her letters are for her eyes only. Until the day her secret letters are mailed, and suddenly, Lara Jean's love life goes from imaginary to out of control."
+                            "description": "<i>To All the Boys I've Loved Before</i> is now a major motion picture streaming on Netflix!</br>What if all the crushes you ever had found out how you felt about them...all at once? </br>Sixteen-year-old Lara Jean Song keeps her love letters in a hatbox her mother gave her. They aren't love letters that anyone else wrote for her; these are ones she's written. One for every boy she's ever loved - five in all. When she writes, she pours out her heart and soul and says all the things she would never say in real life, because her letters are for her eyes only. Until the day her secret letters are mailed, and suddenly, Lara Jean's love life goes from imaginary to out of control.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/37/fe/9PagyEHI_t.jpeg",
+                                "https://thumbs2.imgbox.com/ea/4a/uXiIscM5_t.jpeg",
+                                "https://thumbs2.imgbox.com/55/c0/BtDIiBgU_t.jpg",
+                                "https://thumbs2.imgbox.com/ac/b4/bguch2FB_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/768637861425287470/",
+                                "https://www.pinterest.com/pin/311029918034258899/",
+                                "https://www.pinterest.com/pin/1086845322554759467/",
+                                "https://www.pinterest.com/pin/650136896232269919/"
+                            ]
                         },
                         {
                             "id": "romance-fiction-2",
@@ -22,7 +45,22 @@
                             "author": [
                                 "Jane Austen"
                             ],
-                            "description": "One of Jane Austen's most beloved works, <i>Pride and Prejudice</i>, is vividly brought to life by Academy Award nominee Rosamund Pike (Gone Girl). In her bright and energetic performance of this British classic, she expertly captures Austen's signature wit and tone. Her attention to detail, her literary background, and her performance in the 2005 feature film version of the novel provide the perfect foundation from which to convey the story of Elizabeth Bennet, her four sisters, and the inimitable Mr. Darcy. \nIn Pride and Prejudice, the Bennet sisters try to find their way in the repressive strictures of 19th-century society. Austen shows the folly of judging by first impressions and the experience of falling in love, and she superbly describes a world which, despite being more than two centuries old, still resonates with modern concerns. "
+                            "description": "One of Jane Austen's most beloved works, <i>Pride and Prejudice</i>, is vividly brought to life by Academy Award nominee Rosamund Pike (Gone Girl). In her bright and energetic performance of this British classic, she expertly captures Austen's signature wit and tone. Her attention to detail, her literary background, and her performance in the 2005 feature film version of the novel provide the perfect foundation from which to convey the story of Elizabeth Bennet, her four sisters, and the inimitable Mr. Darcy. </br>In Pride and Prejudice, the Bennet sisters try to find their way in the repressive strictures of 19th-century society. Austen shows the folly of judging by first impressions and the experience of falling in love, and she superbly describes a world which, despite being more than two centuries old, still resonates with modern concerns. ",
+                            "images": [
+                                "https://thumbs2.imgbox.com/a6/46/kTfUKEps_t.jpg",
+                                "https://thumbs2.imgbox.com/0d/ac/JN91Q3w0_t.jpg",
+                                "https://thumbs2.imgbox.com/e5/8f/uFIxT0RD_t.jpg",
+                                "https://thumbs2.imgbox.com/0e/65/9O3bbdLe_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/12666442691963579/",
+                                "https://www.pinterest.com/pin/335025659796241436/",
+                                "https://www.pinterest.com/pin/454089574937818177/",
+                                "https://www.pinterest.com/pin/351912463865784/"
+                            ]
                         },
                         {
                             "id": "romance-fiction-3",
@@ -31,7 +69,22 @@
                             "author": [
                                 "Stephenie Meyer"
                             ],
-                            "description": "About three things I was certain.\nFirst, Edward was a vampire.\nSecond, there was a part of him, and I didn't know how dominant that part might be, that thirsted for my blood.\nAnd Third, I was unconditionally and irrevocably in love with him.\nIsabella Swan's move to Forks, a small, perpetually rainy town in Washington, could have been the most boring move she ever made. But once she meets the mysterious and alluring Edward Cullen, Isabella's life takes a thrilling and terrifying turn. Up until now, Edward has managed to keep his vampire identity a secret in the small community he lives in, but now nobody is safe, especially Isabella, the person Edward holds most dear. The lovers find themselves balanced precariously on the point of a knife, between desire and danger.\nDeeply sensuous and extraordinarily suspenseful, Twilight captures the struggle between defying our instincts and satisfying our desires. This is a love story with bite."
+                            "description": "About three things I was certain.</br>First, Edward was a vampire.</br>Second, there was a part of him, and I didn't know how dominant that part might be, that thirsted for my blood.</br>And Third, I was unconditionally and irrevocably in love with him.</br>Isabella Swan's move to Forks, a small, perpetually rainy town in Washington, could have been the most boring move she ever made. But once she meets the mysterious and alluring Edward Cullen, Isabella's life takes a thrilling and terrifying turn. Up until now, Edward has managed to keep his vampire identity a secret in the small community he lives in, but now nobody is safe, especially Isabella, the person Edward holds most dear. The lovers find themselves balanced precariously on the point of a knife, between desire and danger.</br>Deeply sensuous and extraordinarily suspenseful, Twilight captures the struggle between defying our instincts and satisfying our desires. This is a love story with bite.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/9d/77/2JQY9R52_t.jpg",
+                                "https://thumbs2.imgbox.com/26/fa/JeniR83Q_t.jpg",
+                                "https://thumbs2.imgbox.com/81/d6/CV2JR9W5_t.jpg",
+                                "https://thumbs2.imgbox.com/92/18/9E9O55Ty_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/1067423549157380724/",
+                                "https://www.pinterest.com/pin/643381496791987403/",
+                                "https://www.pinterest.com/pin/155303887755887322/",
+                                "https://www.pinterest.com/pin/578571883399710258/"
+                            ]
                         }
                     ]
                 },
@@ -45,7 +98,22 @@
                             "author": [
                                 "J.K. Rowling"
                             ],
-                            "description": "There will be three tasks, spaced throughout the school year, and they will test the champions in many different ways ... their magical prowess - their daring - their powers of deduction - and, of course, their ability to cope with danger.'\nThe Triwizard Tournament is to be held at Hogwarts. Only wizards who are over seventeen are allowed to enter - but that doesn't stop Harry dreaming that he will win the competition. Then at Hallowe'en, when the Goblet of Fire makes its selection, Harry is amazed to find his name is one of those that the magical cup picks out. He will face death-defying tasks, dragons and Dark wizards, but with the help of his best friends, Ron and Hermione, he might just make it through - alive!\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners. "
+                            "description": "There will be three tasks, spaced throughout the school year, and they will test the champions in many different ways ... their magical prowess - their daring - their powers of deduction - and, of course, their ability to cope with danger.'</br>The Triwizard Tournament is to be held at Hogwarts. Only wizards who are over seventeen are allowed to enter - but that doesn't stop Harry dreaming that he will win the competition. Then at Hallowe'en, when the Goblet of Fire makes its selection, Harry is amazed to find his name is one of those that the magical cup picks out. He will face death-defying tasks, dragons and Dark wizards, but with the help of his best friends, Ron and Hermione, he might just make it through - alive!</br>Having become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners. ",
+                            "images": [
+                                "https://thumbs2.imgbox.com/3b/24/y69PeLrL_t.jpg",
+                                "https://thumbs2.imgbox.com/87/64/roqIgd1E_t.jpg",
+                                "https://thumbs2.imgbox.com/ef/81/Ycrka6sf_t.jpg",
+                                "https://thumbs2.imgbox.com/0e/49/aglyjRAO_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/129619295533686923/",
+                                "https://www.pinterest.com/pin/360639882635850899/",
+                                "https://www.pinterest.com/pin/703756179954784/",
+                                "https://www.pinterest.com/pin/451063718945224228/"
+                            ]
                         },
                         {
                             "id": "fantasy-fiction-2",
@@ -54,7 +122,22 @@
                             "author": [
                                 "J.K. Rowling"
                             ],
-                            "description": "<b>Harry Potter and the Sorcerer's Stone will be streaming in Audible Plus through August 4th, 2023.</b>\nTurning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.\nHarry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners."
+                            "description": "<b>Harry Potter and the Sorcerer's Stone will be streaming in Audible Plus through August 4th, 2023.</b></br>Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger and a snake surrounding a large letter 'H'.</br>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!</br>Having become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/bf/87/T0WXo4gx_t.jpg",
+                                "https://thumbs2.imgbox.com/d3/ca/6ShacdEF_t.jpg",
+                                "https://thumbs2.imgbox.com/dd/5c/dpBfZLYc_t.jpg",
+                                "https://thumbs2.imgbox.com/44/46/FH41pJJn_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/62276407319422122/",
+                                "https://www.pinterest.com/pin/71705819058978224/",
+                                "https://www.pinterest.com/pin/2181499805737046/",
+                                "https://www.pinterest.com/pin/99290366778407504/"
+                            ]
                         },
                         {
                             "id": "fantasy-fiction-3",
@@ -63,7 +146,22 @@
                             "author": [
                                 "J.K. Rowling"
                             ],
-                            "description": "'Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board and we can take you anywhere you want to go.'\nWhen the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss.\nHaving become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners.    "
+                            "description": "'Welcome to the Knight Bus, emergency transport for the stranded witch or wizard. Just stick out your wand hand, step on board and we can take you anywhere you want to go.'</br>When the Knight Bus crashes through the darkness and screeches to a halt in front of him, it's the start of another far from ordinary year at Hogwarts for Harry Potter. Sirius Black, escaped mass-murderer and follower of Lord Voldemort, is on the run - and they say he is coming after Harry. In his first ever Divination class, Professor Trelawney sees an omen of death in Harry's tea leaves... But perhaps most terrifying of all are the Dementors patrolling the school grounds, with their soul-sucking kiss.</br>Having become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners.    ",
+                            "images": [
+                                "https://thumbs2.imgbox.com/21/4a/VTnCbrId_t.jpg",
+                                "https://thumbs2.imgbox.com/0c/e1/jCvFwcx1_t.jpg",
+                                "https://thumbs2.imgbox.com/23/93/QZmFqamm_t.jpg",
+                                "https://thumbs2.imgbox.com/fc/d9/Fk3EvgZw_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/",
+                                "https://www.pinterest.com/pin/1112741020404423883/",
+                                "https://www.pinterest.com/pin/105693922497383217/",
+                                "https://www.pinterest.com/pin/880313058393631831/",
+                                "https://www.pinterest.com/pin/507851295481802580/"
+                            ]
                         }
                     ]
                 }
@@ -71,6 +169,15 @@
         },
         {
             "title": "Non-Fiction",
+            "refs": [
+                "https://www.amazon.com/Everyday-Bread-Recipes-Baking-Schedule/dp/1954210396/ref=sr_1_1?keywords=Everyday+Bread%3A+100+Recipes+for+Baking+Bread+on+Your+Schedule&qid=1691260705&sr=8-1",
+                "https://www.amazon.com/Flour-Water-Salt-Yeast-Fundamentals/dp/160774273X/ref=sr_1_1?crid=19B8CUAFCUTOR&keywords=Flour+Water+Salt+Yeast%3A+The+Fundamentals+of+Artisan+Bread+and+Pizza+%5BA+Cookbook%5D&qid=1691260980&sprefix=cooking-and-food-2+ken+forkish%2Caps%2C572&sr=8-1",
+                "https://www.amazon.com/Mastering-Pizza-Practice-Handmade-Focaccia/dp/0399579222/ref=sr_1_1?crid=2YNOF79ADY1BX&keywords=Mastering+Pizza%3A+The+Art+and+Practice+of+Handmade+Pizza%2C+Focaccia%2C+and+Calzone+%5BA+Cookbook%5D&qid=1691261194&sprefix=flour+water+salt+yeast+the+fundamentals+of+artisan+bread+and+pizza+a+cookbook+%2Caps%2C558&sr=8-1",
+                "https://www.amazon.com/Japan-Travel-Guide-Things-Before/dp/B0BL4ZGYNW/ref=sr_1_15?crid=1COQ1Y8HWUZPB&keywords=travel&qid=1691262120&s=books&sprefix=travel%2Cstripbooks-intl-ship%2C1056&sr=1-15",
+                "https://www.amazon.com/South-Korea-Travel-Alone-Lonely/dp/B086B8G1Z5/ref=sr_1_8?crid=K0MXRHBY1I39&keywords=korea+travel&qid=1691262739&s=books&sprefix=korea+tra%2Cstripbooks-intl-ship%2C708&sr=1-8",
+                "https://www.amazon.com/Fodors-Essential-Zealand-Full-color-Travel/dp/1640974733/ref=sr_1_9?crid=2MD1GO35O4HQZ&keywords=australia+travel&qid=1691263505&s=books&sprefix=austria+travel%2Cstripbooks-intl-ship%2C585&sr=1-9"
+                
+            ],
             "subcategories": [
                 {
                     "title": "Cooking and Food",
@@ -82,7 +189,18 @@
                             "author": [
                                 "America's Test Kitchen"
                             ],
-                            "description": "Introducing the only cookbook to put homemade bread and convenience in the same sentence—whether you're a beginner baker or an enthusiast. Learn seven core recipes and then manipulate them into different shapes and flavors with ease for tons of new breads. Fit bread into your schedule with flexible, customizable timetables. Maybe you're looking to get bread on the table tonight, or maybe spreading steps over a few days is better for you. Recipes follow both paths, with new, streamlined techniques, no specialty equipment, and even loaves with no yeast, kneading, or shaping. You won't believe the chewy, open crumb and ultracrisp crust you'll get from no-knead Dutch oven-baked loaves, the ease of quick breads that come together with a stir, and the dinner possibilities for flatbreads of all kinds."
+                            "description": "Introducing the only cookbook to put homemade bread and convenience in the same sentence—whether you're a beginner baker or an enthusiast. Learn seven core recipes and then manipulate them into different shapes and flavors with ease for tons of new breads. Fit bread into your schedule with flexible, customizable timetables. Maybe you're looking to get bread on the table tonight, or maybe spreading steps over a few days is better for you. Recipes follow both paths, with new, streamlined techniques, no specialty equipment, and even loaves with no yeast, kneading, or shaping. You won't believe the chewy, open crumb and ultracrisp crust you'll get from no-knead Dutch oven-baked loaves, the ease of quick breads that come together with a stir, and the dinner possibilities for flatbreads of all kinds.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/c6/aa/TOWTdaC1_t.jpg",
+                                "https://thumbs2.imgbox.com/c4/68/ck2GjvDw_t.jpg",
+                                "https://thumbs2.imgbox.com/d8/a3/xYqezDET_t.jpg",
+                                "https://thumbs2.imgbox.com/77/4e/Fbctoknb_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/Everyday-Bread-Recipes-Baking-Schedule/dp/1954210396/ref=sr_1_1?keywords=Everyday+Bread%3A+100+Recipes+for+Baking+Bread+on+Your+Schedule&qid=1691260705&sr=8-1"
+                            ]
                         },
                         {
                             "id": "cooking-and-food-2",
@@ -91,7 +209,18 @@
                             "author": [
                                 "Ken Forkish "
                             ],
-                            "description": "NEW YORK TIMES BESTSELLER • From Portland's most acclaimed and beloved baker comes this must-have baking guide, featuring recipes for world-class breads and pizzas and a variety of schedules suited for the home baker.\nThere are few things more satisfying than biting into a freshly made, crispy-on-the-outside, soft-and-supple-on-the-inside slice of perfectly baked bread. For Portland-based baker Ken Forkish, well-made bread is more than just a pleasure—it is a passion that has led him to create some of the best and most critically lauded breads and pizzas in the country.\nIn Flour Water Salt Yeast, Forkish translates his obsessively honed craft into scores of recipes for rustic boules and Neapolitan-style pizzas, all suited for the home baker. Forkish developed and tested all of the recipes in his home oven, and his impeccable formulas and clear instructions result in top-quality artisan breads and pizzas that stand up against those sold in the best bakeries anywhere.\nWhether you're a total beginner or a serious baker, Flour Water Salt Yeast has a recipe that suits your skill level and time constraints: Start with a straight dough and have fresh bread ready by supper time, or explore pre-ferments with a bread that uses biga or poolish. If you're ready to take your baking to the next level, follow Forkish's step-by-step guide to making a levain starter with only flour and water, and be amazed by the delicious complexity of your naturally leavened bread. Pizza lovers can experiment with a variety of doughs and sauces to create the perfect pie using either a pizza stone or a cast-iron skillet.\nFlour Water Salt Yeast is more than just a collection of recipes for amazing bread and pizza—it offers a complete baking education, with a thorough yet accessible explanation of the tools and techniques that set artisan bread apart. Featuring a tutorial on baker's percentages, advice for manipulating ingredients ratios to create custom doughs, tips for adapting bread baking schedules to fit your day-to-day life, and an entire chapter that demystifies the levain-making process, Flour Water Salt Yeast is an indispensable resource for bakers who want to make their daily bread exceptional bread."
+                            "description": "NEW YORK TIMES BESTSELLER • From Portland's most acclaimed and beloved baker comes this must-have baking guide, featuring recipes for world-class breads and pizzas and a variety of schedules suited for the home baker.</br>There are few things more satisfying than biting into a freshly made, crispy-on-the-outside, soft-and-supple-on-the-inside slice of perfectly baked bread. For Portland-based baker Ken Forkish, well-made bread is more than just a pleasure—it is a passion that has led him to create some of the best and most critically lauded breads and pizzas in the country.</br>In Flour Water Salt Yeast, Forkish translates his obsessively honed craft into scores of recipes for rustic boules and Neapolitan-style pizzas, all suited for the home baker. Forkish developed and tested all of the recipes in his home oven, and his impeccable formulas and clear instructions result in top-quality artisan breads and pizzas that stand up against those sold in the best bakeries anywhere.</br>Whether you're a total beginner or a serious baker, Flour Water Salt Yeast has a recipe that suits your skill level and time constraints: Start with a straight dough and have fresh bread ready by supper time, or explore pre-ferments with a bread that uses biga or poolish. If you're ready to take your baking to the next level, follow Forkish's step-by-step guide to making a levain starter with only flour and water, and be amazed by the delicious complexity of your naturally leavened bread. Pizza lovers can experiment with a variety of doughs and sauces to create the perfect pie using either a pizza stone or a cast-iron skillet.</br>Flour Water Salt Yeast is more than just a collection of recipes for amazing bread and pizza—it offers a complete baking education, with a thorough yet accessible explanation of the tools and techniques that set artisan bread apart. Featuring a tutorial on baker's percentages, advice for manipulating ingredients ratios to create custom doughs, tips for adapting bread baking schedules to fit your day-to-day life, and an entire chapter that demystifies the levain-making process, Flour Water Salt Yeast is an indispensable resource for bakers who want to make their daily bread exceptional bread.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/34/2c/gTCho9mm_t.jpg",
+                                "https://thumbs2.imgbox.com/8d/74/Zn1NVFAM_t.jpg",
+                                "https://thumbs2.imgbox.com/2b/d8/hCAlJe39_t.jpg",
+                                "https://thumbs2.imgbox.com/25/a6/NrNyABWf_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/Flour-Water-Salt-Yeast-Fundamentals/dp/160774273X/ref=sr_1_1?crid=19B8CUAFCUTOR&keywords=Flour+Water+Salt+Yeast%3A+The+Fundamentals+of+Artisan+Bread+and+Pizza+%5BA+Cookbook%5D&qid=1691260980&sprefix=cooking-and-food-2+ken+forkish%2Caps%2C572&sr=8-1"
+                            ]
                         },
                         {
                             "id": "cooking-and-food-3",
@@ -101,39 +230,88 @@
                                 "Marc Vetri",
                                 "David Joachim"
                             ],
-                            "description": "A revolutionary guide to making delicious pizza at home, offering a variety of base doughs so that your pizza will turn out perfect no matter what kind of oven or equipment you have.\nPizza remains America's favorite food, but one that many people hesitate to make at home. In Mastering Pizza, award-winning chef Marc Vetri tackles the topic with his trademark precision, making perfect pizza available to anyone. The recipes—gleaned from years spent researching recipes in Italy and perfecting them in America—have a variety of base doughs of different hydration levels, which allow home cooks to achieve the same results with a regular kitchen oven as they would with a professional pizza oven. The book covers popular standards like Margherita and Carbonara while also featuring unexpected toppings such as mussels and truffles—and even a dessert pizza made with Nutella. With transporting imagery from Italy and hardworking step-by-step photos to demystify the process, Mastering Pizza will help you make pizza as delicious as you find in Italy."
+                            "description": "A revolutionary guide to making delicious pizza at home, offering a variety of base doughs so that your pizza will turn out perfect no matter what kind of oven or equipment you have.</br>Pizza remains America's favorite food, but one that many people hesitate to make at home. In Mastering Pizza, award-winning chef Marc Vetri tackles the topic with his trademark precision, making perfect pizza available to anyone. The recipes—gleaned from years spent researching recipes in Italy and perfecting them in America—have a variety of base doughs of different hydration levels, which allow home cooks to achieve the same results with a regular kitchen oven as they would with a professional pizza oven. The book covers popular standards like Margherita and Carbonara while also featuring unexpected toppings such as mussels and truffles—and even a dessert pizza made with Nutella. With transporting imagery from Italy and hardworking step-by-step photos to demystify the process, Mastering Pizza will help you make pizza as delicious as you find in Italy.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/0a/65/voyjsrjm_t.jpg",
+                                "https://thumbs2.imgbox.com/a8/b6/0P3ma8Hf_t.jpg",
+                                "https://thumbs2.imgbox.com/9a/b1/KAKJ3vDr_t.jpg",
+                                "https://thumbs2.imgbox.com/42/d9/VDKNXVY3_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/Mastering-Pizza-Practice-Handmade-Focaccia/dp/0399579222/ref=sr_1_1?crid=2YNOF79ADY1BX&keywords=Mastering+Pizza%3A+The+Art+and+Practice+of+Handmade+Pizza%2C+Focaccia%2C+and+Calzone+%5BA+Cookbook%5D&qid=1691261194&sprefix=flour+water+salt+yeast+the+fundamentals+of+artisan+bread+and+pizza+a+cookbook+%2Caps%2C558&sr=8-1"
+                            ]
                         }
                     ]
                 },
                 {
-                    "title": "Art and Photography",
+                    "title": "Travel",
                     "books": [
                         {
-                            "id": "art-and-photography-1",
-                            "title": "Seeing Silence",
-                            "price": "15",
+                            "id": "travel-1",
+                            "title": "Japan Travel Guide: Things I Wish I'D Known Before Going to Japan (2023)",
+                            "price": "14.38",
                             "author": [
-                                "Pete McBride "
+                                "Yuki Fukuyama", "Ken Fukuyama"
                             ],
-                            "description": "Dawn mist floats over the Okavango Delta in Botswana. / The northern lights dance across the sky over Norway's fjords. / On the western side of the Tetons in Idaho, deep silence resides in the cold winter. These are just a few of the evocative captions in Pete McBride's sweeping new book of photography, Seeing Silence. And if you know McBride's work—he has traveled to 75 countries over his two-decades-plus career—you already know that these images are stunning. But what is more impressive, especially in our nonstop, clamorous, crazy world is the sense of silence these photos seem to capture. Your heart rate and breathing almost slow down as you take in photo of magnificent place after photo of magnificent place. No man-made noise, only the sounds of nature and all too rare sound of silence.\nThis book, besides being a reminder of what we are all too often missing in our everyday life, is a call to stillness, as this seven-continent visual tour of global quietude will both inspire and calm. McBride has given us a gift with this work, by showing us how much the natural world has to offer, if only we will slow down and listen. — Quentin Nardi"
+                            "description": "<b>In this book, Yuki Fukuyama and Ken Fukuyama will share with you:</b></br>   The ultimate Japan itineraries that are improvised for more than 40+ times.</br>    All the essential information like operating hours, prices, transit tips etc.</br>  Everything you need to know about Tokyo, Kyoto, Osaka, and Hokkaido.</br> The best winter destinations.</br>   Detailed and updated maps of Japan.</br>   The latest super cheap budgeting tips.</br>    The best accommodation tips.</br>   Japan's best kept secrets.</br>    All the best local cuisines.</br>   Events and festivals in Japan.</br>    And much, much more!</br><b><i>About Yuki Fukuyama and Ken Fukuyama</i></b></br>Before serving as a tour guide, they were full-time professors working in Japan National College of Technology. After having their first child in 1985, they have decided to pursue their long-held dream of exploring the world. Inspired by their life-changing adventures throughout the world, they have decided to serve as a tour guide. This happy couple has been serving as a Japan local tour guide for more than 30 years now. In their effort to show the world what Japan truly is, they have decided to write a book about it.",
+                            "images": [
+                                "https://thumbs2.imgbox.com/82/01/UEP90wWV_t.jpg",
+                                "https://thumbs2.imgbox.com/92/08/HTRWHy6h_t.jpg",
+                                "https://thumbs2.imgbox.com/8d/37/qLMScJvW_t.jpg",
+                                "https://thumbs2.imgbox.com/a5/70/rZqUccFE_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/Japan-Travel-Guide-Things-Before/dp/B0BL4ZGYNW/ref=sr_1_15?crid=1COQ1Y8HWUZPB&keywords=travel&qid=1691262120&s=books&sprefix=travel%2Cstripbooks-intl-ship%2C1056&sr=1-15",
+                                "https://unsplash.com/photos/kaoHI0iHJPM",
+                                "https://unsplash.com/photos/8sOZJ8JF0S8"
+
+                            ]
                         },
                         {
-                            "id": "art-and-photography-2",
-                            "title": "The Day May Break",
-                            "price": "35",
+                            "id": "travel-2",
+                            "title": "South Korea: The Solo Girl's Travel Guide: Travel Alone. Not Lonely.",
+                            "price": "19.97",
                             "author": [
-                                "Nick Brandt"
+                                "Alexa West"
                             ],
-                            "description": "The photo editors at Smithsonian magazine felt it was impossible not to include a visual story about climate change in this year's list. And no other book this year does what Nick Brandt's The Day May Break does so beautifully and poignantly—portraying people and animals impacted by environmental degradation and destruction.\nPhotographed in Zimbabwe and Kenya in late 2020, The Day May Break is the first part of a global series by Brandt. The people Brandt photographs have all been badly affected by climate change—some displaced by cyclones that destroyed their homes, others such as farmers impoverished by years-long droughts. The animals, all from five sanctuaries and conservancies, are almost all long-term rescues, victims of everything from the poaching of their parents to habitat destruction and poisoning. These animals can never be released back into the wild. As a result, they are habituated, and so it was safe for human strangers to be close to them, photographed in the same frame at the same time.\nLooking at these photos, one becomes acutely aware of how a warming planet and a changing climate has impacted these lives, both human and animal—and how much has been lost to them and all of us, already. However, these people and animals are the survivors, and there lies possibility and hope. — Q.N."
+                            "description": "<b>(Updated 2022) The #1 Travel Guidebook Series for Women (and couples)</b> ▷ Plan your dream South Korea trip in a short amount of time on any budget - all while avoiding the scams, creeps and tourist traps...and skip ahead to the cities and adventures that are worth your time (and money).</br></br><b>What's inside The Solo Girl's Travel Guide to South Korea?</b></br></br><b>Seoul │Incheon │ Busan │ Daegu │ Jeju Island │Gangneung │Goeje Island │And More Must-See Destinations</b></br></br>This is the #1 Travel Guide for real girls traveling to South Korea...for a vacation, an adventure or to teach English in South Korea (we've got a teacher's section, too).</br></br><b>What this Travel Guide is...</b></br>▷ AN ADVENTURE PLANNER with the BEST temples, hikes, and Korean food</br>▷ Equal amounts Korean culture, local markets, social spots and tan lines</br>▷ A splash of cute Korean culture with the best shopping, spas (jimjibangs), Korean beauty trends and kpop</br>▷ Incredible local tours to see how locals live, drink, and eat</br>▷ Money-saving tips and budget planning</br>▷ Actual local secrets, advice, and off-the-beaten-path adventures</br>▷ Tours that aren't touristy</br></br><b>Plus!</b></br>▷ Safety tips and pep talks</br>▷ Survival Language Phrases</br>▷ What to Pack for South Korea</br>▷ How to get from the airport to where you're going</br>▷ Personal Access to me...ask me anything and I'll</br>✘ A 5-hour read with historical dates and political jargon</br>✘ A bunch of shit that doesn't apply to you planning the best trip ever</br>✘ A book written by some man who doesn't even live here…</br>⚠️ No heavy encyclopedia here!<b>The Solo Girl's Travel Guide answers THE MOST important questions like…</b></br></br>Is it really worth $50 to take a day trip to an island? (always)</br>Can I realistically visit 5 cities in 2 weeks? (sometimes)</br>Can I stay in a gorgeous hot tub hotel for $100? (yes yes yes)</br></br><b>AND</b></br></br>Are there drugs in my drink?</br>Is that dark alley filled with serial killers?</br>Am I going to be kidnapped and sold to the highest bidder?</br>The answer is usually NO, but for us girls, “usually” doesn't cut it. In order to be wild and carefree, we've got to feel 100% safe. And you've never found a travel guide to take your safety into consideration… so, here we are.</br>⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼</br>Go into your vacation knowing you're being given the BEST, the SAFEST, and the TOTALLY WORTH-IT spots. Let your hair down and tell your mom not to worry. I've got you.</br>Your bags may not be packed, but your vacation officially starts now.</br>Oh, and once you've bought this book…we're officially friends. I'm here if you need me. Just write me! My details are inside the book.</br>Click 'Add to Cart' now and plan the trip of a lifetime IN SOUTH KOREA!</br>___________</br>FREE PEP TALK FOR YOU</br>You don't need a boyfriend, a travel partner or anyone's approval to travel the world. And you don't need a massive bank account or an entire summer off work.</br>If you've doubted yourself for one moment, remember this: Millions of girls travel across the globe all by themselves every damn day and you can, too. You don't need permission- this is your life.</br>Listen to your gut, follow your heart, and just book that ticket already!</br>Your copy of The Solo Girl's Travel Guide is waiting to dissolve your worries and give you that extra push you need to JUST DO IT!",
+                            "images": [
+                                "https://thumbs2.imgbox.com/98/50/xJ4hYyLB_t.jpg",
+                                "https://thumbs2.imgbox.com/46/d7/3u6Rgg84_t.jpg",
+                                "https://thumbs2.imgbox.com/d6/58/zO5nkvSU_t.jpg",
+                                "https://thumbs2.imgbox.com/c5/e1/MjReYnZb_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/South-Korea-Travel-Alone-Lonely/dp/B086B8G1Z5/ref=sr_1_8?crid=K0MXRHBY1I39&keywords=korea+travel&qid=1691262739&s=books&sprefix=korea+tra%2Cstripbooks-intl-ship%2C708&sr=1-8",
+                                "https://unsplash.com/photos/Erld-XTqXv0",
+                                "https://unsplash.com/photos/Gf6puSx3h6Y"
+                            ]
                         },
                         {
-                            "id": "art-and-photography-3",
-                            "title": "Wonderland",
-                            "price": "20",
+                            "id": "travel-3",
+                            "title": "Fodor's Essential New Zealand (Full-color Travel Guide)",
+                            "price": "20.99",
                             "author": [
-                                "Annie Leibovitz"
+                                "Fodor's Travel Guides"
                             ],
-                            "description": "Even if you don't know photography, you undoubtedly know the iconic work of Annie Leibovitz. From her groundbreaking work at Rolling Stone in the 1970s to her work at Vogue and Vanity Fair in the 1980s, and through present day, Leibovitz has left an indelible, visual mark on our culture. With her distinctive style and sharp eye, she transforms her subjects—ranging from actors and activists to musicians and athletes—into cultural icons.\nWonderland features more than 340 photographs, the majority of which were previously uncollected—including over 30 images never before published and more than 90 images that have not been seen since their original magazine publication. This gorgeous anthology showcases Leibovitz's particular draw towards fashion, which has served as a vehicle for many of her most ambitious magazine covers and portrait photo shoots. In addition, she has written descriptive backstories, so one gets an even deeper look into how these magical images came together. Leibovitz's new book is a passport to a true wonderland, where fashion is revealed in unexpected subjects and places, and photography is celebrated in its highest form. — Q.N."
+                            "description": "<b>Whether you want to explore Auckland, bungee-jump in Queenstown, or visit The Lord of the Rings sights in Middle-earth , the local Fodor's travel experts in New Zealand are here to help! Fodor's Essential New Zealand guidebook is packed with maps, carefully curated recommendations, and everything else you need to simplify your trip-planning process and make the most of your time.</b> This new edition has been fully-redesigned with an easy-to-read layout, fresh information, and beautiful color photos.</br>Fodor's “Essential” guides have been named by Booklist as the Best Travel Guide Series of 2020!</br><i>Fodor's Essential New Zealand travel guide includes:</i></br>\nAN ILLUSTRATED ULTIMATE EXPERIENCES GUIDE to the top things to see and do</br>\nMULTIPLE ITINERARIES to effectively organize your days and maximize your time</br>\nMORE THAN 45 DETAILED MAPS and a FREE PULL-OUT MAP to help you navigate confidently</br>\nCOLOR PHOTOS throughout to spark your wanderlust!</br>\nHONEST RECOMMENDATIONS FROM LOCALS on the best sights, restaurants, hotels, nightlife, shopping, performing arts, activities, side-trips, and more</br>\nPHOTO-FILLED “BEST OF” FEATURES on “Best National Park Adventures,” “Best Wineries,” ”Best Beaches,” and more</br>\nTRIP-PLANNING TOOLS AND PRACTICAL TIPS includingwhen to go, getting around, beating the crowds, and saving time and money</br>\nHISTORICAL AND CULTURAL INSIGHTS providing rich context on the local people, politics, art, architecture, cuisine, music, geography and more</br>\nSPECIAL FEATURES on “Maori Art,” “Searching for Middle Earth,” and “Tramping New Zealand,” ”Wines of New Zealand,” and more</br>\nLOCAL WRITERS to help you find the under-the-radar gems</br>\nUP-TO-DATE COVERAGE ON: ● Auckland, Wellington, Bay of Islands, Queenstown, Abel Tasman National Park, Christchurch, Hawke's Bay, Milford Sound, Rotorua, Waitomo, and more.</br>\nPlanning on visiting other destinations in Southeast Asia or the Pacific? Check out Fodor's Essential Australia, Fodor's Essential Vietnam, and Fodor's Essential Thailand .</br>\n</br>\n*Important note for digital editions: The digital edition of this guide does not contain all the images or text included in the physical edition.</br></br></br><b>ABOUT FODOR'S AUTHORS</b> : Each Fodor's Travel Guide is researched and written by local experts. Fodor's has been offering expert advice for all tastes and budgets for over 80 years. For more travel inspiration, you can sign up for our travel newsletter at fodors.com/newsletter/signup, or follow us @FodorsTravel on Facebook, Instagram, and Twitter. We invite you to join our friendly community of travel experts at fodors.com/community to ask any other questions and share your experience with us!",
+                            "images": [
+                                "https://thumbs2.imgbox.com/29/35/crY5Q8vy_t.jpg",
+                                "https://thumbs2.imgbox.com/0b/b2/N4ysozf3_t.jpg",
+                                "https://thumbs2.imgbox.com/8f/f1/dncY72E5_t.jpg",
+                                "https://thumbs2.imgbox.com/ee/c2/STR5hZKS_t.jpg"
+                            ],
+                            "refs": [
+                                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
+                                "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal",
+                                "https://www.amazon.com/Fodors-Essential-Zealand-Full-color-Travel/dp/1640974733/ref=sr_1_9?crid=2MD1GO35O4HQZ&keywords=australia+travel&qid=1691263505&s=books&sprefix=austria+travel%2Cstripbooks-intl-ship%2C585&sr=1-9"
+                            ]
                         }
                     ]
                 }

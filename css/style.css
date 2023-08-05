@@ -69,7 +69,7 @@ a {
 }
 
 .button-1:hover {
-    background-color: var(--white);
+    background-color: var(--green);
 }
 
 .button-1:active {

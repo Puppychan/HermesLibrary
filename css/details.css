@@ -1,12 +1,12 @@
 /* Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd */
-body {
-    padding: var(--sz-10);
-
-    display: flex;
+.content {
+    /* display: flex;
     align-items: center;
-    gap: var(--sz-3);
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: column; */
+    /* gap: var(--sz-5); */
+
+    padding: var(--sz-8);
 }
 
 :root {
@@ -29,7 +29,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     /* styling outside */
-    background-color: var(--primary-color-light);
+    background-color: var(--white);
     padding: calc(var(--breadcrumb-size) / 10 - 1px);
     border-radius: var(--breadcrumb-size);
 
@@ -72,6 +72,7 @@ ul.breadcrumb li a .text {
     transition: all 0.2s ease 0.3s;
     opacity: 0;
 }
+
 ul.breadcrumb li:last-child a {
     padding: 0;
 }
@@ -82,10 +83,11 @@ ul.breadcrumb li:focus a {
     background-color: var(--pink);
     box-shadow: var(--brown) 3px 3px 0 0;
 }
+
 ul.breadcrumb li:active a {
     box-shadow: var(--brown) 1px 1px 0 0;
     transform: translate(2px, 2px);
-} 
+}
 
 ul.breadcrumb li:not(:last-child):hover a,
 ul.breadcrumb li:not(:last-child):focus a {
@@ -113,7 +115,7 @@ ul.breadcrumb li:last-child:focus {
     display: grid;
     justify-content: center;
     align-items: center;
-    column-gap: var(--sz-3);
+    /* column-gap: var(--sz-3); */
     /* row-gap: var(--sz-3); */
     grid-template:
         "main sub1 price"0.3fr "main sub2 btn"0.3fr "main sub3 btn"0.3fr / 2fr 1.3fr 1fr;
@@ -148,6 +150,7 @@ img[class*="details-illustration"] {
     grid-area: price;
     justify-self: center;
     align-self: flex-end;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,6 +184,7 @@ img[class*="details-illustration"] {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: var(--sz-28);
 }
 
 .details-info-title {
@@ -210,39 +214,160 @@ hr {
     display: none;
 }
 
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease-in-out;
+}
+
+.modal.show {
+    display: flex;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: var(--sz-2);
+
+    padding: var(--sz-10) var(--sz-8);
+
+    width: 80%;
+    max-width: 650px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap: var(--sz-4);
+}
+
+.modal-content-img {    
+    position: relative;
+    z-index: 1;
+}
+.modal-content-img-main,
+.modal-content-img-sub1,
+.modal-content-img-sub2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    color: var(--darkgreen);
+    font-size: var(--text-7xl);
+}
+.modal-content-img-sub1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+    animation: pulse-animation1 1s infinite alternate;
+}
+.modal-content-img-sub2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -2;
+    animation: pulse-animation2 0.8s infinite alternate 0.2s;
+}
+
+.modal-content-text {
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding: var(--sz-4) 0;
+    gap: var(--sz-3);
+}
+.modal-content-text h2 {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    line-height: 1.5;
+}
+.modal-content-text p {
+    font-size: var(--text-lg);
+    line-height: 1.5;
+}
+
+/* The Close Button */
+.close {
+    color: var(--primary-color-dark);
+    align-self: flex-end;
+    font-size: var(--text-3xl);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.close:hover,
+.close:focus {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+
 @media screen and (max-width: 1024px) {
-    body {
+
+    /* body {
         padding: var(--sz-6);
         gap: var(--sz-12);
+    } */
+    .content {
+        padding: var(--sz-14);
+        gap: var(--sz-12);
     }
+
     .breadcrumb-container {
         justify-content: center;
     }
+    
     .details-illustration {
-        height: auto;
-        column-gap: 0;
-        grid-template:
-            "main main main"3fr "sub1 sub2 sub3"1fr "price price price"0.4fr "btn btn btn"0.4fr / 1fr 1fr 1fr;
 
+        column-gap: 0;
+        height: 100vh;
+        grid-template:
+            "main main main"0.6fr "sub1 sub2 sub3"0.3fr "price price price"0.03fr "btn btn btn"0.07fr / 1fr 1fr 1fr;
+
+    }
+    img.details-illustration-main {
+        /* object-fit: contain; */
     }
 
     .details-illustration-price {
         align-self: center;
         font-weight: 700;
         width: 100%;
-        margin-top: var(--sz-7);
+        font-size: var(--text-4xl);
+        margin: var(--sz-7) 0 var(--sz-3);
 
     }
 
     .details-illustration-price span {
         width: 100%;
         text-align: center;
-
     }
 
     .details-illustration-btn {
         height: 100%;
-        margin-top: var(--sz-5);
+        width: 50%;
+        /* margin-top: var(--sz-2); */
     }
 
     hr {
@@ -261,15 +386,22 @@ hr {
 }
 
 @media screen and (max-width: 640px) {
-    body {
+
+    /* body {
+        padding: var(--sz-10) var(--sz-4);
+        gap: var(--sz-7);
+    } */
+    .content {
         padding: var(--sz-10) var(--sz-4);
         gap: var(--sz-7);
     }
+
     ul.breadcrumb li:not(:last-child):hover a,
     ul.breadcrumb li:not(:last-child):focus a {
         padding-left: var(--breadcrumb-size);
         padding-right: calc(var(--breadcrumb-size) / 6);
     }
+
     .details-illustration {
         height: 80vh;
         grid-template:
@@ -314,5 +446,10 @@ hr {
         text-indent: var(--sz-3);
         font-size: var(--text-lg);
         line-height: 1.5;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: var(--sz-7) var(--sz-5);
     }
 }

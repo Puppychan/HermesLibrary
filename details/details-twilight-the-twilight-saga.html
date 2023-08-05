@@ -1,0 +1,193 @@
+
+    
+    <!-- 
+        RMIT University Vietnam
+        Course: COSC2430 Web Programming
+        Semester: 2023A
+        Assessment: Assignment 1
+        Author: Tran Mai Nhung
+        ID: s3879954
+        Acknowledgement: 
+            - https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api
+            - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+            - https://www.amazon.com/
+            - https://www.pinterest.com/pin/1067423549157380724/
+            - https://www.pinterest.com/pin/643381496791987403/
+            - https://www.pinterest.com/pin/155303887755887322/
+            - https://www.pinterest.com/pin/578571883399710258/
+    -->
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="https://kit.fontawesome.com/501ce2b63b.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="/assets/logo-light.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/nav-footer.css">
+        <link rel="stylesheet" href="../css/details.css">
+        <title>Twilight: The Twilight Saga</title>
+    </head>
+    
+    <body>
+        
+    <header>
+    <input type="checkbox" id="nav-check">
+    <img src="/assets/logo.png" alt="Hermes Library Logo" class="nav-logo" >
+    <div class="nav-btn">
+        <label for="nav-check">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </div>
+    <nav>
+        <a href="index.html" target="_blank" rel="noopener noreferrer">
+            Home
+        </a>
+        <a href="../categories/cat-fiction.html" target="_blank" rel="noopener noreferrer">
+            Fiction
+        </a>
+<a href="../categories/cat-non-fiction.html" target="_blank" rel="noopener noreferrer">
+            Non-Fiction
+        </a>
+        <a href="contact.html" target="_blank" rel="noopener noreferrer">
+            Contact Us
+        </a>
+    </nav>
+    </header>
+    
+        <section class="content">
+        <section class="breadcrumb-container">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-glasses icon"></i>
+                        <span class="text">Twilight: The Twilight Saga</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../categories/cat-fiction.html" target="_blank">
+                        <i class="fa-solid fa-book-open icon"></i>
+                        <span class="text">Fiction</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../index.html" target="_blank">
+                        <i class="fa-solid fa-house icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="details-illustration">
+            <img src="https://thumbs2.imgbox.com/9d/77/2JQY9R52_t.jpg" alt="Content" class="details-illustration-main" onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&0'">
+            <img src="https://thumbs2.imgbox.com/26/fa/JeniR83Q_t.jpg" alt="Content" class="details-illustration-sub" onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&1'">
+            <img src="https://thumbs2.imgbox.com/81/d6/CV2JR9W5_t.jpg" alt="Content" class="details-illustration-sub" onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&2'">
+            <img src="https://thumbs2.imgbox.com/92/18/9E9O55Ty_t.jpg" alt="Content" class="details-illustration-sub" onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&3'">
+            <div class="details-illustration-price">
+                <span>Buy now</span>
+                <span>16$</span>
+            </div>
+            <button class="details-illustration-btn button-1" id="btn">Add to cart</button>
+        </section>
+        <hr>
+        <section class="details-info">
+            <h1 class="details-info-title">Twilight: The Twilight Saga</h1>
+            <h3 class="details-info-author">Stephenie Meyer</h3>
+            <p class="details-info-desc">
+                About three things I was certain.
+First, Edward was a vampire.
+Second, there was a part of him, and I didn't know how dominant that part might be, that thirsted for my blood.
+And Third, I was unconditionally and irrevocably in love with him.
+Isabella Swan's move to Forks, a small, perpetually rainy town in Washington, could have been the most boring move she ever made. But once she meets the mysterious and alluring Edward Cullen, Isabella's life takes a thrilling and terrifying turn. Up until now, Edward has managed to keep his vampire identity a secret in the small community he lives in, but now nobody is safe, especially Isabella, the person Edward holds most dear. The lovers find themselves balanced precariously on the point of a knife, between desire and danger.
+Deeply sensuous and extraordinarily suspenseful, Twilight captures the struggle between defying our instincts and satisfying our desires. This is a love story with bite.
+            </p>
+        </section>
+    </section>
+    <!-- The Modal -->
+    <div id="priceModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <i class="fa-solid fa-x close"></i>
+            <div class="modal-content-img">
+                <i class="fa-solid fa-star modal-content-img-main"></i>
+                <i class="fa-solid fa-star modal-content-img-sub1"></i>
+                <i class="fa-solid fa-star modal-content-img-sub2"></i>
+            </div>
+            <div class="modal-content-text">
+                <h2>Congratulations!!</h2>
+                <p>You have successfully added the book to your cart.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+<footer>
+<nav class="sub">
+    <a href="https://github.com/Puppychan" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github-alt"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/nhung-tran-528396210/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/rinkaki.toran/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="mailto:nhungmaitran1412@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-regular fa-envelope-open"></i>
+    </a>
+</nav>
+<nav class="main">
+    <a href="about.html" target="_blank" rel="noopener noreferrer">
+        About Us
+    </a>
+    <a href="privacy.html" target="_blank" rel="noopener noreferrer">
+        Privacy Policy
+    </a>
+    <a href="terms.html" target="_blank" rel="noopener noreferrer">
+        Terms
+    </a>
+    <a href="copyright.html" target="_blank" rel="noopener noreferrer">
+        Copyright
+    </a>
+    <a href="contact.html" target="_blank" rel="noopener noreferrer">
+        Contact Us
+    </a>
+</nav>
+</footer>
+
+    <script>
+        var timeout;
+        // Get the modal
+        const modal = document.getElementById("priceModal");
+        
+        // Get the button that opens the modal
+        const btn = document.getElementById("btn");
+        
+        // Get the <span> element that closes the modal
+        const span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            timeout = setTimeout(() => {
+                modal.classList.add("show");
+            }, 300);
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.classList.remove("show");
+            clearTimeout(timeout);
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.classList.remove("show");
+                clearTimeout(timeout);
+            }
+        }
+    </script>
+    </body>
+    </html>

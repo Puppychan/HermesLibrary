@@ -65,3 +65,16 @@
     --sz-96: 24rem; /* 384px */
 
 }
+
+@keyframes pulse-animation1 {
+    100% {
+        opacity: 0.1;
+        transform: scale(1.25);
+    }
+}
+@keyframes pulse-animation2 {
+    100% {
+        opacity: 0;
+        transform: scale(1.35);
+    }
+}
