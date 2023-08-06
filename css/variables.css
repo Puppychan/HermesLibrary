@@ -4,17 +4,19 @@
 :root {
     --primary-color-light: #d7b8aa;
     --primary-color-dark: #323232;
-    --dark-brown: #402E32;
-    --gray: #8B8B8B;
+    --dark-brown: #5C4338;
+    --dark-tan: #A08376;
+    --gray: #928E8C;
     --brown: #422800;
     --cream: #fbeee0;
-    --orange: #F9BCAB;
-    --white: rgb(255, 250, 248);
+    /* --orange: #F9BCAB; */
+    --orange: #faa580;
+    --red: #c73d4b;
+    --white: #fffaf8;
     --pink: #FFBFBE;
-    /* --green: #B2DBD2; */
+    
     --darkgreen: #7DA49C;
     --green: #BFD9C5;
-    /* --darkgreen: #8AA28F; */
 
     /* Tailwind text size */
     --text-9xl: 8rem;

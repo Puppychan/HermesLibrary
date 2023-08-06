@@ -89,11 +89,13 @@
                 <div class="form-element-special">
                     <p>Contact Preference</p>
                     <div class="form-element-special-sub">
-                        <input type="checkbox" id="contact-pref-email" name="contact-pref" value="email">
+                        <input type="checkbox" class="contact-pref-cb" id="contact-pref-email" name="contact-pref"
+                            onclick='deRequireCheckbox("contact-pref-cb")' value="email">
                         <label for="contact-pref-email">By Email</label>
                     </div>
                     <div class="form-element-special-sub">
-                        <input type="checkbox" id="contact-pref-phone" name="contact-pref" value="phone">
+                        <input type="checkbox" class="contact-pref-cb" id="contact-pref-phone" name="contact-pref"
+                            onclick='deRequireCheckbox("contact-pref-cb")' value="phone">
                         <label for="contact-pref-phone">By Phone</label>
                     </div>
                 </div>
@@ -114,10 +116,17 @@
                 <!-- Element Note -->
                 <div class="form-element-normal">
                     <label for="contact-note">Extra Notes</label>
-                    <textarea id="contact-note" name="contact-note" rows="4" minlength="" placeholder="Your Notes..."></textarea>
+                    <textarea id="contact-note" name="contact-note" rows="4" minlength=""
+                        placeholder="Your Notes..."></textarea>
                 </div>
 
-                <input type="submit" value="Submit now">
+                <!-- <input type="submit" value="Submit now"> -->
+                <button type="submit"
+                    class="contact-submit">
+                    <div class="contact-submit-bck"></div>
+                    <span class="contact-submit-content">Submit</span>
+                    <span class="contact-submit-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                </button>
                 <input type="reset" value="Reset">
 
             </form>
@@ -161,6 +170,30 @@
             </a>
         </nav>
     </footer>
+    <script>
+        function deRequireCheckbox(className) {
+            el = document.getElementsByClassName(className);
+
+            let atLeastOneChecked = false; //at least one checkbox is checked
+
+            // detect if at least one checkbox is checked
+            for (i = 0; i < el.length; i++) {
+                if (el[i].checked === true) {
+                    atLeastOneChecked = true;
+                }
+            }
+
+            if (atLeastOneChecked === true) {
+                for (i = 0; i < el.length; i++) {
+                    el[i].required = false;
+                }
+            } else {
+                for (i = 0; i < el.length; i++) {
+                    el[i].required = true;
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>

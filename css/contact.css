@@ -17,7 +17,7 @@
  */
 body {
     /* background-color: var(--white); */
-    background: linear-gradient(-48deg, #323232 10% ,#5C4338 40%, #A08376 45%, var(--white) 30%);
+    background: linear-gradient(-48deg, var(--dark-brown) 35%, var(--dark-tan) 45%, var(--white) 30%);
 }
 
 .content {
@@ -62,6 +62,7 @@ body {
     border-top-right-radius: var(--sz-12);
     border-bottom-right-radius: var(--sz-12);
     box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+    /* background-color: var(--primary-color-light); */
     background-color: var(--primary-color-light);
     /* background-color: var(--green); */
 }
@@ -215,6 +216,7 @@ body {
     resize: vertical;
     /* user can resize vertically, but width is fixed */
     min-height: var(--sz-20);
+    max-height: var(--sz-72);
 }
 
 /* place holder */
@@ -249,10 +251,19 @@ input:invalid {
     background-size: 25px;
 }
 
-.content-left-form input:focus:invalid {
+.content-left-form input:not([type="checkbox"]):focus:invalid {
     background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% var(--orange);
     background-size: 25px;
 }
+
+.content-left-form input[type="checkbox"]:focus:invalid {
+    border-color: var(--red);
+    background-color: var(--orange);
+}
+
+/* button */
+
+
 
 /* hover */
 .content-left-form input:hover,
@@ -269,11 +280,83 @@ input:invalid {
     /* border: 2px solid var(--brown); */
 }
 
+@media screen and (max-width: 1536px) {
+
+    .content-right-img {
+        width: 75%;
+    }
+
+    .content-left {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+
+    .content-right-img {
+        width: 85%;
+    }
+
+    .content-left {
+        width: 58%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+    body {
+        background: linear-gradient(-48deg, var(--dark-brown) 30%, var(--dark-tan) 40%, var(--white) 30%);
+    }
+
+    .content {
+        position: relative;
+        justify-content: flex-start;
+        height: 90vh;
+    }
+
+    .content-right {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        justify-content: flex-end;
+    }
+
+    .content-right-img {
+        width: 50%;
+    }
+
     .content-left {
         width: 70%;
+        padding: var(--sz-10) var(--sz-12);
+        /* z-index: 1; */
     }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: linear-gradient(0deg, var(--dark-brown) 55%, var(--white) 30%);
+    }
+
+    .content {
+        justify-content: center;
+    }
+
     .content-right-img {
+        width: 40%;
+    }
+
+    .content-left {
+        align-self: flex-start;
         width: 100%;
+        height: 98%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: var(--sz-8) var(--sz-7);
+        box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .content-right-img {
+        width: 50%;
     }
 }
