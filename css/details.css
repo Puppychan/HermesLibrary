@@ -1,4 +1,13 @@
-/* Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd */
+/* 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Tran Mai Nhung
+    ID: s3879954
+    Acknowledgement: 
+        - Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd
+ */
 .content {
     /* display: flex;
     align-items: center;
@@ -92,12 +101,6 @@ ul.breadcrumb li:focus a {
     box-shadow: var(--brown) 3px 3px 0 0;
 }
 
-ul.breadcrumb li:hover:not(:last-child) a,
-ul.breadcrumb li:focus:not(:last-child) a {
-    padding-left: calc(var(--breadcrumb-size));
-    padding-right: calc(var(--breadcrumb-size) / 2);
-}
-
 ul.breadcrumb li:active a {
     box-shadow: var(--brown) 1px 1px 0 0;
     transform: translate(2px, 2px);
@@ -105,8 +108,8 @@ ul.breadcrumb li:active a {
 
 ul.breadcrumb li:not(:last-child):hover a,
 ul.breadcrumb li:not(:last-child):focus a {
-    width: calc(var(--breadcrumb-size) * 5);
-    /* width: fit-content; */
+    /* width: calc(var(--breadcrumb-size) * 10); */
+    width: fit-content;
 }
 
 ul.breadcrumb li:hover a .text,
@@ -124,7 +127,7 @@ ul.breadcrumb li:last-child:focus {
 /* detail illustration */
 .details-illustration {
     width: 100%;
-    height: 60vh;
+    height: 90vh;
     /* aspect-ratio: 1/1; */
     display: grid;
     justify-content: center;
@@ -132,7 +135,9 @@ ul.breadcrumb li:last-child:focus {
     /* column-gap: var(--sz-3); */
     /* row-gap: var(--sz-3); */
     grid-template:
-        "main sub1 price"0.3fr "main sub2 btn"0.3fr "main sub3 btn"0.3fr / 2fr 1.3fr 1fr;
+        "main sub1 price"0.33333fr 
+        "main sub2 price"0.33333fr 
+        "main sub3 btn"0.33333fr / 1.85fr 1.3fr 1fr;
 }
 
 img[class*="details-illustration"] {
@@ -142,6 +147,7 @@ img[class*="details-illustration"] {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
 }
 
 .details-illustration-main {
@@ -178,13 +184,14 @@ img[class*="details-illustration"] {
 
     font-size: var(--text-xl);
     justify-self: center;
+    align-self: flex-start;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 28%;
     width: 80%;
-    border-radius: 2rem;
+    border-radius: 3rem;
     font-weight: 600;
     font-size: var(--text-2xl);
     line-height: 50px;
@@ -202,16 +209,22 @@ img[class*="details-illustration"] {
 }
 
 .details-info-title {
-    font-size: var(--text-7xl);
+    font-size: var(--text-5xl);
     text-align: center;
     width: 100%;
     line-height: 2;
+    /* line clamp 2 */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .details-info-author {
-    font-size: var(--text-4xl);
+    font-size: var(--text-3xl);
+    opacity: 0.7;
     line-height: 1.7;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     width: 100%;
 }
@@ -220,7 +233,7 @@ img[class*="details-illustration"] {
     text-indent: var(--sz-10);
     font-size: var(--text-xl);
     line-height: 1.7;
-    margin-top: var(--sz-2);
+    margin-top: var(--sz-7);
     min-height: var(--sz-56);
 }
 
@@ -350,19 +363,30 @@ hr {
     } */
     .content {
         padding: var(--sz-14);
-        gap: var(--sz-12);
+        gap: var(--sz-5);
     }
 
     .breadcrumb-container {
         justify-content: center;
     }
+    ul.breadcrumb li:not(:last-child):hover a,
+    ul.breadcrumb li:not(:last-child):focus a {
+        max-width: calc(var(--breadcrumb-size) * 7);
+    }
+    ul.breadcrumb li:hover:not(:last-child) a,
+    ul.breadcrumb li:focus:not(:last-child) a {
+        padding-left: calc(var(--breadcrumb-size));
+        padding-right: calc(var(--breadcrumb-size) / 2);
+    }
 
     .details-illustration {
-
         column-gap: 0;
-        height: 100vh;
+        height: 120vh;
         grid-template:
-            "main main main"0.6fr "sub1 sub2 sub3"0.3fr "price price price"0.03fr "btn btn btn"0.07fr / 1fr 1fr 1fr;
+            "main main main"0.9fr 
+            "sub1 sub2 sub3"0.3fr 
+            "price price price"0.03fr 
+            "btn btn btn"0.09fr / 1fr 1fr 1fr;
 
     }
 
@@ -383,7 +407,7 @@ hr {
     .details-illustration-btn {
         height: 100%;
         width: 50%;
-        /* margin-top: var(--sz-2); */
+        align-self: center;
     }
 
     hr {
@@ -396,8 +420,14 @@ hr {
         background-color: var(--primary-color-dark);
     }
 
-    .details-info-desc {
+    .details-info-title {
+        font-size: var(--text-4xl);
+    }
+    .details-info-author {
         font-size: var(--text-2xl);
+    }
+    .details-info-desc {
+        font-size: var(--text-lg);
     }
 }
 
@@ -419,7 +449,7 @@ hr {
     ul.breadcrumb li:hover:not(:last-child) a,
     ul.breadcrumb li:focus:not(:last-child) a {
         padding-right: calc(var(--breadcrumb-size) / 6.7);
-        width: calc(var(--breadcrumb-size) * 3.5);
+        max-width: calc(var(--breadcrumb-size) * 5);
     }
 
     ul.breadcrumb li:hover a,
@@ -432,17 +462,13 @@ hr {
         transform: translate(1.5px, 1.5px);
     }
 
-    /* 
-    ul.breadcrumb li:not(:last-child):hover a,
-    ul.breadcrumb li:not(:last-child):focus a {
-        padding-left: var(--breadcrumb-size);
-        padding-right: calc(var(--breadcrumb-size) / 6);
-    } */
-
     .details-illustration {
-        height: 80vh;
+        height: 100vh;
         grid-template:
-            "main main main"0.6fr "sub1 sub2 sub3"0.2fr "price price price"0.1fr "btn btn btn"0.1fr / 1fr 1fr 1fr;
+            "main main main"0.8fr 
+            "sub1 sub2 sub3"0.2fr 
+            "price price price"0.1fr 
+            "btn btn btn"0.05fr / 1fr 1fr 1fr;
 
     }
 
@@ -458,7 +484,7 @@ hr {
     }
 
     hr {
-        margin: var(--sz-8) 0;
+        margin: var(--sz-4) 0;
     }
 
     .details-info {
@@ -466,14 +492,14 @@ hr {
     }
 
     .details-info-title {
-        font-size: var(--text-5xl);
+        font-size: var(--text-2xl);
         text-indent: var(--sz-3);
         text-align: left;
         line-height: 1.7;
     }
 
     .details-info-author {
-        font-size: var(--text-3xl);
+        font-size: var(--text-xl);
         text-align: left;
         text-indent: var(--sz-3);
         line-height: 1.5;
@@ -481,12 +507,19 @@ hr {
 
     .details-info-desc {
         text-indent: var(--sz-3);
-        font-size: var(--text-lg);
+        font-size: var(--text-base);
         line-height: 1.5;
     }
 
     .modal-content {
         width: 95%;
         padding: var(--sz-7) var(--sz-5);
+    }
+}
+@media screen and (max-width: 420px) {
+    ul.breadcrumb li:hover:not(:last-child) a,
+    ul.breadcrumb li:focus:not(:last-child) a {
+        padding-right: calc(var(--breadcrumb-size) / 5.5);
+        max-width: calc(var(--breadcrumb-size) * 3);
     }
 }

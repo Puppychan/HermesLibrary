@@ -1,0 +1,166 @@
+<!-- 
+        RMIT University Vietnam
+        Course: COSC2430 Web Programming
+        Semester: 2023A
+        Assessment: Assignment 1
+        Author: Tran Mai Nhung
+        ID: s3879954
+        Acknowledgement: 
+            - https://www.figma.com/community/file/1186290767258757438
+            - https://stackoverflow.com/questions/3532649/problem-with-select-and-after-with-css-in-webkit
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/501ce2b63b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/assets/logo-light.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav-footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="nav-check">
+        <img src="/assets/logo.png" alt="Hermes Library Logo" class="nav-logo">
+        <div class="nav-btn">
+            <label for="nav-check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <nav>
+            <a href="index.html" target="_blank" rel="noopener noreferrer">
+                Home
+            </a>
+            <a href="./categories/cat-fiction.html" target="_blank" rel="noopener noreferrer">
+                Fiction
+            </a>
+            <a href="./categories/cat-non-fiction.html" target="_blank" rel="noopener noreferrer">
+                Non-Fiction
+            </a>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">
+                Contact Us
+            </a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="content-left">
+            <h1 class="content-left-title">Contact Us</h1>
+            <form class="content-left-form">
+                <!-- Element -->
+                <div class="form-element-normal">
+                    <label for="contact-purpose">Contact Purpose</label>
+                    <div class="select-wrapper">
+                        <select name="contact-purpose" id="contact-purpose">
+                            <option value="sell">I want to sell books</option>
+                            <option value="buy">I want to buy books</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Element -->
+                <div class="form-element-normal">
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name..."
+                        required="required">
+                </div>
+
+                <!-- Element -->
+                <div class="form-element-normal">
+                    <label for="contact-email">Email</label>
+                    <input type="email" name="contact-email" id="contact-email" placeholder="123@abc.com"
+                        required="required">
+                </div>
+
+                <!-- Element -->
+                <div class="form-element-normal">
+                    <label for="contact-phone">Phone Number</label>
+                    <input type="tel" name="contact-phone" id="contact-phone" placeholder="0123456789"
+                        required="required">
+                </div>
+
+                <!-- Element -->
+                <div class="form-element-special">
+                    <p>Contact Preference</p>
+                    <div class="form-element-special-sub">
+                        <input type="checkbox" id="contact-pref-email" name="contact-pref" value="email">
+                        <label for="contact-pref-email">By Email</label>
+                    </div>
+                    <div class="form-element-special-sub">
+                        <input type="checkbox" id="contact-pref-phone" name="contact-pref" value="phone">
+                        <label for="contact-pref-phone">By Phone</label>
+                    </div>
+                </div>
+
+                <!-- Element -->
+                <div class="form-element-special">
+                    <p>Receive Weekly Newsletter</p>
+                    <div class="form-element-special-sub">
+                        <input type="radio" name="contact-news" id="contact-news-yes" value="yes">
+                        <label for="contact-news-yes">Yes</label>
+                    </div>
+                    <div class="form-element-special-sub">
+                        <input type="radio" name="contact-news" id="contact-news-no" value="no" checked>
+                        <label for="contact-news-no">No</label>
+                    </div>
+                </div>
+
+                <!-- Element Note -->
+                <div class="form-element-normal">
+                    <label for="contact-note">Extra Notes</label>
+                    <textarea id="contact-note" name="contact-note" rows="4" minlength="" placeholder="Your Notes..."></textarea>
+                </div>
+
+                <input type="submit" value="Submit now">
+                <input type="reset" value="Reset">
+
+            </form>
+        </div>
+
+        <div class="content-right">
+            <img src="/assets/contact-illu.png" class="content-right-img" alt="Contact Us Illustration">
+        </div>
+
+    </section>
+    <footer>
+        <nav class="sub">
+            <a href="https://github.com/Puppychan" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github-alt"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nhung-tran-528396210/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/rinkaki.toran/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="mailto:nhungmaitran1412@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-regular fa-envelope-open"></i>
+            </a>
+        </nav>
+        <nav class="main">
+            <a href="about.html" target="_blank" rel="noopener noreferrer">
+                About Us
+            </a>
+            <a href="privacy.html" target="_blank" rel="noopener noreferrer">
+                Privacy Policy
+            </a>
+            <a href="terms.html" target="_blank" rel="noopener noreferrer">
+                Terms
+            </a>
+            <a href="copyright.html" target="_blank" rel="noopener noreferrer">
+                Copyright
+            </a>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">
+                Contact Us
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
