@@ -3,6 +3,7 @@
         {
             "title": "Fiction",
             "refs": [
+                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
                 "https://www.pinterest.com/pin/768637861425287470/",
                 "https://www.pinterest.com/pin/12666442691963579/",
                 "https://www.pinterest.com/pin/1067423549157380724/",
@@ -170,6 +171,7 @@
         {
             "title": "Non-Fiction",
             "refs": [
+                "https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api",
                 "https://www.amazon.com/Everyday-Bread-Recipes-Baking-Schedule/dp/1954210396/ref=sr_1_1?keywords=Everyday+Bread%3A+100+Recipes+for+Baking+Bread+on+Your+Schedule&qid=1691260705&sr=8-1",
                 "https://www.amazon.com/Flour-Water-Salt-Yeast-Fundamentals/dp/160774273X/ref=sr_1_1?crid=19B8CUAFCUTOR&keywords=Flour+Water+Salt+Yeast%3A+The+Fundamentals+of+Artisan+Bread+and+Pizza+%5BA+Cookbook%5D&qid=1691260980&sprefix=cooking-and-food-2+ken+forkish%2Caps%2C572&sr=8-1",
                 "https://www.amazon.com/Mastering-Pizza-Practice-Handmade-Focaccia/dp/0399579222/ref=sr_1_1?crid=2YNOF79ADY1BX&keywords=Mastering+Pizza%3A+The+Art+and+Practice+of+Handmade+Pizza%2C+Focaccia%2C+and+Calzone+%5BA+Cookbook%5D&qid=1691261194&sprefix=flour+water+salt+yeast+the+fundamentals+of+artisan+bread+and+pizza+a+cookbook+%2Caps%2C558&sr=8-1",
