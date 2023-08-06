@@ -13,9 +13,11 @@
         - https://moderncss.dev/pure-css-custom-styled-radio-buttons/
         - https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea
         - https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity
+        - https://css-tricks.com/almanac/selectors/p/placeholder/
  */
 body {
-    background-color: var(--white);
+    /* background-color: var(--white); */
+    background: linear-gradient(-48deg, #323232 10% ,#5C4338 40%, #A08376 45%, var(--white) 30%);
 }
 
 .content {

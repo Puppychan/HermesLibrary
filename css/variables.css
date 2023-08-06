@@ -2,10 +2,9 @@
 - https://tailwindcss.com/docs/font-size
 -Size: https://tailwindcss.com/docs/height */
 :root {
-    /* --primary-color-light: #DBCFD0; */
     --primary-color-light: #d7b8aa;
-    /* --primary-color-light: #DDD0C8; */
     --primary-color-dark: #323232;
+    --dark-brown: #402E32;
     --gray: #8B8B8B;
     --brown: #422800;
     --cream: #fbeee0;
