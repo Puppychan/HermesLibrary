@@ -1,0 +1,232 @@
+/* https://codepen.io/knyttneve/pen/LamBMP 
+https://stackoverflow.com/questions/23610151/can-you-style-ordered-list-numbers*/
+:root {
+    /* --contentHeight: 30vh; */
+    --contentHeight: auto;
+    --sectionWidth: 700px;
+}
+
+body {
+    background-color: var(--white);
+}
+
+.content {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--sz-20) var(--sz-5);
+    color: var(--primary-color-dark);
+}
+
+.content-title {
+    font-size: var(--text-3xl);
+    color: var(--primary-color-dark);
+    text-align: center;
+}
+
+.content-subtitle {
+    font-size: var(--text-lg);
+    font-style: italic;
+    color: var(--primary-color-dark);
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.content-claim {
+    padding-bottom: var(--sz-10);
+    font-size: var(--text-lg);
+    color: var(--primary-color-dark);
+    font-weight: 500;
+    text-align: center;
+}
+
+.content-article {
+    width: 55vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--sz-6);
+
+    text-indent: var(--sz-5);
+    letter-spacing: 0.020em;
+    line-height: 2rem;
+
+}
+
+.content>ol {
+    width: var(--sectionWidth);
+    list-style: none;
+    counter-reset: item;
+}
+
+.content>ol>li {
+    counter-increment: item;
+    margin-bottom: var(--sz-7);
+    position: relative;
+}
+
+.content>ol>li:before {
+    position: absolute;
+    left: -2.5rem;
+    top: var(--sz-5);
+    width: var(--sz-8);
+    height: var(--sz-8);
+    border-radius: 50%;
+    content: counter(item);
+
+    background: var(--primary-color-light);
+    color: var(--primary-color-dark);
+    /* color: var(--white); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content a {
+    color: var(--dark-tan);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.content a:hover {
+    text-decoration: overline underline;
+    text-decoration-color: var(--primary-color-dark);
+    transform: scale(1.1);
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+    padding: var(--sz-3);
+    font-size: var(--text-xl);
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid;
+    user-select: none;
+    outline: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:hover,
+summary:focus {
+    opacity: 0.8;
+    font-size: var(--text-2xl);
+}
+
+details>article {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 100%;
+    user-select: none;
+    padding: 0 20px;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out 0.1s;
+
+    font-size: var(--text-base);
+
+    opacity: 0;
+    height: 0;
+    padding: 20px;
+
+    line-height: 2rem;
+    letter-spacing: 0.020em;
+}
+details>article>p {
+    text-indent: var(--sz-5);
+}
+details>article li {
+    margin-left: var(--sz-5);
+}
+
+details[open]>summary {
+    color: var(--dark-tan);
+}
+
+details[open]>article {
+    opacity: 1;
+    height: var(--contentHeight);
+
+}
+@media screen and (max-width: 1536px) {
+    .content-article {
+        width: 70vw;
+    }
+
+}
+@media screen and (max-width: 1280px) {
+    .content-article {
+        width: 75vw;
+        gap: var(--sz-7);
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    :root {
+        --sectionWidth: 75vw;
+    }
+    .content-article {
+        width: 85vw;
+        gap: var(--sz-10);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: var(--text-2xl);
+    }
+
+    .content-subtitle {
+        font-size: var(--text-base);
+    }
+
+    .content-claim {
+        font-size: var(--text-base);
+        padding: var(--sz-10) 0 var(--sz-1);
+    }
+    .content-article {
+        width: 90vw;
+        gap: var(--sz-7);
+    }
+
+
+    summary {
+        font-size: var(--text-lg);
+    }
+
+    summary:hover,
+    summary:focus {
+        font-size: var(--text-lg);
+        transform: translateX(1.5%);
+    }
+
+    details>article {
+        font-size: var(--text-sm);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    :root {
+        --sectionWidth: 90vw;
+    }
+
+    .content-title {
+        font-size: var(--text-xl);
+    }
+
+    .content>ol>li:before {
+        display: none;
+    }
+
+    summary {
+        font-size: var(--text-base);
+    }
+
+    details>article {
+        font-size: var(--text-sm);
+    }
+}
