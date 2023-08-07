@@ -54,6 +54,8 @@ header nav {
 }
 
 header nav a {
+    /* font-family: 'Rye', cursive; */
+    font-family: 'Rye', cursive;
     font-size: var(--text-xl);
     font-weight: 400;
     color: var(--primary-color-dark);

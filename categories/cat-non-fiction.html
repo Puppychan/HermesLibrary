@@ -1,0 +1,303 @@
+
+    
+    <!-- 
+        RMIT University Vietnam
+        Course: COSC2430 Web Programming
+        Semester: 2023A
+        Assessment: Assignment 1
+        Author: Tran Mai Nhung
+        ID: s3879954
+        Acknowledgement: 
+            - https://stackoverflow.com/questions/62934538/how-to-set-default-image-if-image-src-is-not-found-in-api
+            - https://www.amazon.com/Everyday-Bread-Recipes-Baking-Schedule/dp/1954210396/ref=sr_1_1?keywords=Everyday+Bread%3A+100+Recipes+for+Baking+Bread+on+Your+Schedule&qid=1691260705&sr=8-1
+            - https://www.amazon.com/Flour-Water-Salt-Yeast-Fundamentals/dp/160774273X/ref=sr_1_1?crid=19B8CUAFCUTOR&keywords=Flour+Water+Salt+Yeast%3A+The+Fundamentals+of+Artisan+Bread+and+Pizza+%5BA+Cookbook%5D&qid=1691260980&sprefix=cooking-and-food-2+ken+forkish%2Caps%2C572&sr=8-1
+            - https://www.amazon.com/Mastering-Pizza-Practice-Handmade-Focaccia/dp/0399579222/ref=sr_1_1?crid=2YNOF79ADY1BX&keywords=Mastering+Pizza%3A+The+Art+and+Practice+of+Handmade+Pizza%2C+Focaccia%2C+and+Calzone+%5BA+Cookbook%5D&qid=1691261194&sprefix=flour+water+salt+yeast+the+fundamentals+of+artisan+bread+and+pizza+a+cookbook+%2Caps%2C558&sr=8-1
+            - https://www.amazon.com/Japan-Travel-Guide-Things-Before/dp/B0BL4ZGYNW/ref=sr_1_15?crid=1COQ1Y8HWUZPB&keywords=travel&qid=1691262120&s=books&sprefix=travel%2Cstripbooks-intl-ship%2C1056&sr=1-15
+            - https://www.amazon.com/South-Korea-Travel-Alone-Lonely/dp/B086B8G1Z5/ref=sr_1_8?crid=K0MXRHBY1I39&keywords=korea+travel&qid=1691262739&s=books&sprefix=korea+tra%2Cstripbooks-intl-ship%2C708&sr=1-8
+            - https://www.amazon.com/Fodors-Essential-Zealand-Full-color-Travel/dp/1640974733/ref=sr_1_9?crid=2MD1GO35O4HQZ&keywords=australia+travel&qid=1691263505&s=books&sprefix=austria+travel%2Cstripbooks-intl-ship%2C585&sr=1-9
+            - https://unsplash.com/photos/6lGaninEvqw
+    -->
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="https://kit.fontawesome.com/501ce2b63b.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="/assets/logo-light.png" type="image/x-icon" />
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/nav-footer.css">
+        
+        <title>Non-Fiction</title>
+    </head>
+    
+    <body>
+    
+    <header>
+    <input type="checkbox" id="nav-check">
+    <img src="/assets/logo.png" alt="Hermes Library Logo" class="nav-logo" >
+    <div class="nav-btn">
+        <label for="nav-check">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </div>
+    <nav>
+        <a href="../index.html" target="_blank" rel="noopener noreferrer">
+            Home
+        </a>
+        <a href="../categories/cat-fiction.html" target="_blank" rel="noopener noreferrer">
+            Fiction
+        </a>
+<a href="../categories/cat-non-fiction.html" target="_blank" rel="noopener noreferrer">
+            Non-Fiction
+        </a>
+        <a href="../contact.html" target="_blank" rel="noopener noreferrer">
+            Contact Us
+        </a>
+    </nav>
+    </header>
+    
+    <section class="intro">
+        <div class="intro-img" style="background-image: url('../assets/non-fiction.jpeg');">
+        </div>
+        <div class="intro-text">
+            <h3>Hermes Library's</h3>
+            <h1 class="opacity">Non-Fiction Books</h1>
+        </div>
+    </section>
+    <section class="content">
+    <section class="cards subcategories">
+        <h1 class="cards-header">Sub-Categories</h1>
+        <div class="cards-content">
+            <a class="card-image" href="#subcat-cooking-and-food">
+                <img src="https://source.unsplash.com/random?book&0" alt="Book Subcategory Cooking and Food Image" class="card-image-img">
+                <div class="card-image-overlay"></div>
+                <h3 class="card-image-title">Cooking and Food</h3>
+            </a>
+                
+            <a class="card-image" href="#subcat-travel">
+                <img src="https://source.unsplash.com/random?book&1" alt="Book Subcategory Travel Image" class="card-image-img">
+                <div class="card-image-overlay"></div>
+                <h3 class="card-image-title">Travel</h3>
+            </a>
+                
+        </div>
+    </section>
+
+   <section class="cards subcategory" id="subcat-cooking-and-food">
+        <h1 class="cards-header">Cooking and Food</h1>
+        <div class="cards-content">
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/c6/aa/TOWTdaC1_t.jpg" alt="Everyday Bread: 100 Recipes for Baking Bread on Your Schedule's image 0" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Cooking-and Food'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">Everyday Bread: 100 Recipes for Baking Bread on Your Schedule</h2>
+        <h4 class="card-book-content-author">America's Test Kitchen</h4>
+        <p class="card-book-content-description">
+            Introducing the only cookbook to put homemade bread and convenience in the same sentence—whether you're a beginner baker or an enthusiast. Learn seven core recipes and then manipulate them into different shapes and flavors with ease for tons of new breads. Fit bread into your schedule with flexible, customizable timetables. Maybe you're looking to get bread on the table tonight, or maybe spreading steps over a few days is better for you. Recipes follow both paths, with new, streamlined techniques, no specialty equipment, and even loaves with no yeast, kneading, or shaping. You won't believe the chewy, open crumb and ultracrisp crust you'll get from no-knead Dutch oven-baked loaves, the ease of quick breads that come together with a stir, and the dinner possibilities for flatbreads of all kinds.
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">20$</p>
+        <a href="../details/details-cooking-and-food-1.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/34/2c/gTCho9mm_t.jpg" alt="Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]'s image 1" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Cooking-and Food'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza [A Cookbook]</h2>
+        <h4 class="card-book-content-author">Ken Forkish </h4>
+        <p class="card-book-content-description">
+            NEW YORK TIMES BESTSELLER • From Portland's most acclaimed and beloved baker comes this must-have baking guide, featuring recipes for world-class breads and pizzas and a variety of schedules suited for the home baker.</br>There are few things more satisfying than biting into a freshly made, crispy-on-the-outside, soft-and-supple-on-the-inside slice of perfectly baked bread. For Portland-based baker Ken Forkish, well-made bread is more than just a pleasure—it is a passion that has led him to create some of the best and most critically lauded breads and pizzas in the country.</br>In Flour Water Salt Yeast, Forkish translates his obsessively honed craft into scores of recipes for rustic boules and Neapolitan-style pizzas, all suited for the home baker. Forkish developed and tested all of the recipes in his home oven, and his impeccable formulas and clear instructions result in top-quality artisan breads and pizzas that stand up against those sold in the best bakeries anywhere.</br>Whether you're a total beginner or a serious baker, Flour Water Salt Yeast has a recipe that suits your skill level and time constraints: Start with a straight dough and have fresh bread ready by supper time, or explore pre-ferments with a bread that uses biga or poolish. If you're ready to take your baking to the next level, follow Forkish's step-by-step guide to making a levain starter with only flour and water, and be amazed by the delicious complexity of your naturally leavened bread. Pizza lovers can experiment with a variety of doughs and sauces to create the perfect pie using either a pizza stone or a cast-iron skillet.</br>Flour Water Salt Yeast is more than just a collection of recipes for amazing bread and pizza—it offers a complete baking education, with a thorough yet accessible explanation of the tools and techniques that set artisan bread apart. Featuring a tutorial on baker's percentages, advice for manipulating ingredients ratios to create custom doughs, tips for adapting bread baking schedules to fit your day-to-day life, and an entire chapter that demystifies the levain-making process, Flour Water Salt Yeast is an indispensable resource for bakers who want to make their daily bread exceptional bread.
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">30$</p>
+        <a href="../details/details-cooking-and-food-2.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/0a/65/voyjsrjm_t.jpg" alt="Mastering Pizza: The Art and Practice of Handmade Pizza, Focaccia, and Calzone [A Cookbook]'s image 2" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Cooking-and Food'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">Mastering Pizza: The Art and Practice of Handmade Pizza, Focaccia, and Calzone [A Cookbook]</h2>
+        <h4 class="card-book-content-author">Marc Vetri - David Joachim</h4>
+        <p class="card-book-content-description">
+            A revolutionary guide to making delicious pizza at home, offering a variety of base doughs so that your pizza will turn out perfect no matter what kind of oven or equipment you have.</br>Pizza remains America's favorite food, but one that many people hesitate to make at home. In Mastering Pizza, award-winning chef Marc Vetri tackles the topic with his trademark precision, making perfect pizza available to anyone. The recipes—gleaned from years spent researching recipes in Italy and perfecting them in America—have a variety of base doughs of different hydration levels, which allow home cooks to achieve the same results with a regular kitchen oven as they would with a professional pizza oven. The book covers popular standards like Margherita and Carbonara while also featuring unexpected toppings such as mussels and truffles—and even a dessert pizza made with Nutella. With transporting imagery from Italy and hardworking step-by-step photos to demystify the process, Mastering Pizza will help you make pizza as delicious as you find in Italy.
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">30$</p>
+        <a href="../details/details-cooking-and-food-3.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+        </div>
+    </section>
+        
+    <section class="cards subcategory" id="subcat-travel">
+        <h1 class="cards-header">Travel</h1>
+        <div class="cards-content">
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/82/01/UEP90wWV_t.jpg" alt="Japan Travel Guide: Things I Wish I'D Known Before Going to Japan (2023)'s image 0" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Travel'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">Japan Travel Guide: Things I Wish I'D Known Before Going to Japan (2023)</h2>
+        <h4 class="card-book-content-author">Yuki Fukuyama - Ken Fukuyama</h4>
+        <p class="card-book-content-description">
+            <b>In this book, Yuki Fukuyama and Ken Fukuyama will share with you:</b></br>   The ultimate Japan itineraries that are improvised for more than 40+ times.</br>    All the essential information like operating hours, prices, transit tips etc.</br>  Everything you need to know about Tokyo, Kyoto, Osaka, and Hokkaido.</br> The best winter destinations.</br>   Detailed and updated maps of Japan.</br>   The latest super cheap budgeting tips.</br>    The best accommodation tips.</br>   Japan's best kept secrets.</br>    All the best local cuisines.</br>   Events and festivals in Japan.</br>    And much, much more!</br><b><i>About Yuki Fukuyama and Ken Fukuyama</i></b></br>Before serving as a tour guide, they were full-time professors working in Japan National College of Technology. After having their first child in 1985, they have decided to pursue their long-held dream of exploring the world. Inspired by their life-changing adventures throughout the world, they have decided to serve as a tour guide. This happy couple has been serving as a Japan local tour guide for more than 30 years now. In their effort to show the world what Japan truly is, they have decided to write a book about it.
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">14.38$</p>
+        <a href="../details/details-travel-1.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/98/50/xJ4hYyLB_t.jpg" alt="South Korea: The Solo Girl's Travel Guide: Travel Alone. Not Lonely.'s image 1" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Travel'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">South Korea: The Solo Girl's Travel Guide: Travel Alone. Not Lonely.</h2>
+        <h4 class="card-book-content-author">Alexa West</h4>
+        <p class="card-book-content-description">
+            <b>(Updated 2022) The #1 Travel Guidebook Series for Women (and couples)</b> ▷ Plan your dream South Korea trip in a short amount of time on any budget - all while avoiding the scams, creeps and tourist traps...and skip ahead to the cities and adventures that are worth your time (and money).</br></br><b>What's inside The Solo Girl's Travel Guide to South Korea?</b></br></br><b>Seoul │Incheon │ Busan │ Daegu │ Jeju Island │Gangneung │Goeje Island │And More Must-See Destinations</b></br></br>This is the #1 Travel Guide for real girls traveling to South Korea...for a vacation, an adventure or to teach English in South Korea (we've got a teacher's section, too).</br></br><b>What this Travel Guide is...</b></br>▷ AN ADVENTURE PLANNER with the BEST temples, hikes, and Korean food</br>▷ Equal amounts Korean culture, local markets, social spots and tan lines</br>▷ A splash of cute Korean culture with the best shopping, spas (jimjibangs), Korean beauty trends and kpop</br>▷ Incredible local tours to see how locals live, drink, and eat</br>▷ Money-saving tips and budget planning</br>▷ Actual local secrets, advice, and off-the-beaten-path adventures</br>▷ Tours that aren't touristy</br></br><b>Plus!</b></br>▷ Safety tips and pep talks</br>▷ Survival Language Phrases</br>▷ What to Pack for South Korea</br>▷ How to get from the airport to where you're going</br>▷ Personal Access to me...ask me anything and I'll</br>✘ A 5-hour read with historical dates and political jargon</br>✘ A bunch of shit that doesn't apply to you planning the best trip ever</br>✘ A book written by some man who doesn't even live here…</br>⚠️ No heavy encyclopedia here!<b>The Solo Girl's Travel Guide answers THE MOST important questions like…</b></br></br>Is it really worth $50 to take a day trip to an island? (always)</br>Can I realistically visit 5 cities in 2 weeks? (sometimes)</br>Can I stay in a gorgeous hot tub hotel for $100? (yes yes yes)</br></br><b>AND</b></br></br>Are there drugs in my drink?</br>Is that dark alley filled with serial killers?</br>Am I going to be kidnapped and sold to the highest bidder?</br>The answer is usually NO, but for us girls, “usually” doesn't cut it. In order to be wild and carefree, we've got to feel 100% safe. And you've never found a travel guide to take your safety into consideration… so, here we are.</br>⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼⪼</br>Go into your vacation knowing you're being given the BEST, the SAFEST, and the TOTALLY WORTH-IT spots. Let your hair down and tell your mom not to worry. I've got you.</br>Your bags may not be packed, but your vacation officially starts now.</br>Oh, and once you've bought this book…we're officially friends. I'm here if you need me. Just write me! My details are inside the book.</br>Click 'Add to Cart' now and plan the trip of a lifetime IN SOUTH KOREA!</br>___________</br>FREE PEP TALK FOR YOU</br>You don't need a boyfriend, a travel partner or anyone's approval to travel the world. And you don't need a massive bank account or an entire summer off work.</br>If you've doubted yourself for one moment, remember this: Millions of girls travel across the globe all by themselves every damn day and you can, too. You don't need permission- this is your life.</br>Listen to your gut, follow your heart, and just book that ticket already!</br>Your copy of The Solo Girl's Travel Guide is waiting to dissolve your worries and give you that extra push you need to JUST DO IT!
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">19.97$</p>
+        <a href="../details/details-travel-2.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+            <article class="card-book">
+    <div class="card-book-img-container">
+        <img src="https://thumbs2.imgbox.com/29/35/crY5Q8vy_t.jpg" alt="Fodor's Essential New Zealand (Full-color Travel Guide)'s image 2" class="card-book-img"
+        onerror="this.onerror=null;this.src='https://source.unsplash.com/random?book&Travel'">
+        <div class="card-book-img-overlay"></div>
+    </div>
+    <div class="card-book-content">
+        <h2 class="card-book-content-title">Fodor's Essential New Zealand (Full-color Travel Guide)</h2>
+        <h4 class="card-book-content-author">Fodor's Travel Guides</h4>
+        <p class="card-book-content-description">
+            <b>Whether you want to explore Auckland, bungee-jump in Queenstown, or visit The Lord of the Rings sights in Middle-earth , the local Fodor's travel experts in New Zealand are here to help! Fodor's Essential New Zealand guidebook is packed with maps, carefully curated recommendations, and everything else you need to simplify your trip-planning process and make the most of your time.</b> This new edition has been fully-redesigned with an easy-to-read layout, fresh information, and beautiful color photos.</br>Fodor's “Essential” guides have been named by Booklist as the Best Travel Guide Series of 2020!</br><i>Fodor's Essential New Zealand travel guide includes:</i></br>
+AN ILLUSTRATED ULTIMATE EXPERIENCES GUIDE to the top things to see and do</br>
+MULTIPLE ITINERARIES to effectively organize your days and maximize your time</br>
+MORE THAN 45 DETAILED MAPS and a FREE PULL-OUT MAP to help you navigate confidently</br>
+COLOR PHOTOS throughout to spark your wanderlust!</br>
+HONEST RECOMMENDATIONS FROM LOCALS on the best sights, restaurants, hotels, nightlife, shopping, performing arts, activities, side-trips, and more</br>
+PHOTO-FILLED “BEST OF” FEATURES on “Best National Park Adventures,” “Best Wineries,” ”Best Beaches,” and more</br>
+TRIP-PLANNING TOOLS AND PRACTICAL TIPS includingwhen to go, getting around, beating the crowds, and saving time and money</br>
+HISTORICAL AND CULTURAL INSIGHTS providing rich context on the local people, politics, art, architecture, cuisine, music, geography and more</br>
+SPECIAL FEATURES on “Maori Art,” “Searching for Middle Earth,” and “Tramping New Zealand,” ”Wines of New Zealand,” and more</br>
+LOCAL WRITERS to help you find the under-the-radar gems</br>
+UP-TO-DATE COVERAGE ON: ● Auckland, Wellington, Bay of Islands, Queenstown, Abel Tasman National Park, Christchurch, Hawke's Bay, Milford Sound, Rotorua, Waitomo, and more.</br>
+Planning on visiting other destinations in Southeast Asia or the Pacific? Check out Fodor's Essential Australia, Fodor's Essential Vietnam, and Fodor's Essential Thailand .</br>
+</br>
+*Important note for digital editions: The digital edition of this guide does not contain all the images or text included in the physical edition.</br></br></br><b>ABOUT FODOR'S AUTHORS</b> : Each Fodor's Travel Guide is researched and written by local experts. Fodor's has been offering expert advice for all tastes and budgets for over 80 years. For more travel inspiration, you can sign up for our travel newsletter at fodors.com/newsletter/signup, or follow us @FodorsTravel on Facebook, Instagram, and Twitter. We invite you to join our friendly community of travel experts at fodors.com/community to ask any other questions and share your experience with us!
+        </p>
+    </div>
+    <div class="card-book-footer">
+        <p class="card-book-footer-price">20.99$</p>
+        <a href="../details/details-travel-3.html" 
+        target="_blank" rel="noopener noreferrer" 
+        class="card-book-footer-btn button-2">
+            <div class="card-book-footer-btn-bck"></div>
+            <span class="card-book-footer-btn-content">Details</span>
+            <span class="card-book-footer-btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+    </div>
+</article>
+        </div>
+    </section>
+        
+    
+</section>
+
+<footer>
+<nav class="sub">
+    <a href="https://github.com/Puppychan" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github-alt"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/nhung-tran-528396210/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/rinkaki.toran/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="mailto:nhungmaitran1412@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-regular fa-envelope-open"></i>
+    </a>
+</nav>
+<nav class="main">
+    <a href="../about.html" target="_blank" rel="noopener noreferrer">
+        About Us
+    </a>
+    <a href="../privacy.html" target="_blank" rel="noopener noreferrer">
+        Privacy Policy
+    </a>
+    <a href="../terms.html" target="_blank" rel="noopener noreferrer">
+        Terms
+    </a>
+    <a href="../copyright.html" target="_blank" rel="noopener noreferrer">
+        Copyright
+    </a>
+    <a href="../contact.html" target="_blank" rel="noopener noreferrer">
+        Contact Us
+    </a>
+</nav>
+</footer>
+
+<script src="./javascript/stopAnimation.js"></script>
+</body>
+</html>

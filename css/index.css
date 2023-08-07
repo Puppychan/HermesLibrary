@@ -15,6 +15,7 @@
     /* width: 100%; */
     text-align: center;
     font-size: var(--text-3xl);
+    font-family: 'Rye', cursive;
     /* flex-basis: 100%; */
 }
 
