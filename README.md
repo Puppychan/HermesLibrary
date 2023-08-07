@@ -50,7 +50,13 @@
 
 ![Hermes Library Home Page](image.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The website 'Hermes Library Website' is a book trading website. Using this website, the users can find and buy their books, or selling if they want to sell their books. The main purposes of this website is to bring the books globally, so that the book lovers can reach and exchange the books from anywhere and anytime they want. 
+<br><br>
+However, this project concentrates on frontend instead of developing backend. The primary purpose of buiding this project is to reinforce the knowledge of html, and plain css, especially styling responsive and animation in this website. Besides, this project aims to let the coders understand the importance of using javascript and dynamic program in developing the website.
+<br>
+<h3>Scope</h3>
+The general scope of this project is users can view the list of categorized books. For each books, they can also explore details 
+
 
 Here's why:
 
