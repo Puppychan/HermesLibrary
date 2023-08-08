@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src=" assets/logo-light.png" alt="Logo" width="125">
+    <img src="./assets/logo-light.png" alt="Logo" width="125">
   </a>
   <h1 align="center">Hermes Library Project</h1>
   <h3 style="font-weight: 300;">Bridging Book Lovers Worldwide</h3>
