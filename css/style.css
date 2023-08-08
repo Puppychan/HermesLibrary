@@ -15,7 +15,7 @@
             - https://fonts.google.com/specimen/Quintessential?preview.text=Hermes%20Library&preview.text_type=custom&category=Handwriting
             - https://fonts.google.com/specimen/Sofia?preview.text=Hermes%20Library&preview.text_type=custom&category=Handwriting
  */
-@import " variables.css";
+@import "./variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Rubik+Dirt&family=Rye&family=Sofia&family=Uncial+Antiqua&display=swap');
 
 *,
