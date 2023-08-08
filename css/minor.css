@@ -25,6 +25,7 @@ body {
     font-size: var(--text-3xl);
     color: var(--primary-color-dark);
     text-align: center;
+    font-family: 'Quintessential', cursive;
 }
 
 .content-subtitle {
@@ -33,6 +34,7 @@ body {
     color: var(--primary-color-dark);
     font-weight: 500;
     opacity: 0.7;
+    font-family: 'Sofia', cursive;
 }
 
 .content-claim {
