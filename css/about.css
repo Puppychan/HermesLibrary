@@ -1,0 +1,30 @@
+.content {
+    width: 100%;
+    padding: var(--sz-32);
+    gap: var(--sz-32);
+}
+.content-article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.content-article-text {
+    /* flex-grow: 1; */
+    width: 65%;
+}
+.content-article-img {
+    width: 30%;
+    /* flex-grow: 1; */
+    /* overflow: hidden; */
+
+}
+.content-article-img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+
+    box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+    border-radius: 50%;
+}
