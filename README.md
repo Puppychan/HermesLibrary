@@ -50,23 +50,13 @@
 
 ![Hermes Library Home Page](image.png)
 
-The website 'Hermes Library Website' is a book trading website. Using this website, the users can find and buy their books, or selling if they want to sell their books. The main purposes of this website is to bring the books globally, so that the book lovers can reach and exchange the books from anywhere and anytime they want. 
-<br><br>
-However, this project concentrates on frontend instead of developing backend. The primary purpose of buiding this project is to reinforce the knowledge of html, and plain css, especially styling responsive and animation in this website. Besides, this project aims to let the coders understand the importance of using javascript and dynamic program in developing the website.
-<br>
+The website 'Hermes Library Website' is a book trading website. Using this website, the users can find and buy their books, or selling if they want to sell their books. The main purpose of this website is to bring the books globally, so that the book lovers can reach and exchange the books from anywhere and anytime they want.
 <h3>Scope</h3>
-The general scope of this project is users can view the list of categorized books. For each books, they can also explore details 
+Technically, this project concentrates on frontend instead of developing backend. The primary purpose of buiding this project is to reinforce the knowledge of html, and plain css, especially styling responsive and animation in this website. Besides, this project aims to let the coders understand the importance of using javascript and dynamic program in developing the website. Finally, this project aims to help the web coders who are in beginner level improve their CSS skills and using tags inside HTML file. After this project, they are expected to be able to write CSS and HTML fluently and understanding clearly why applying JavaScript to web programming.<br>
+In this project, there are several requirements, including using plain HTML and CSS to style and add animation, having responsive design, having 4 compulsory types of pages with specific requirements for each page, et cetera.  Therefore, in this project, for Home, Category, there are book list displayed to the users categorized following its category. On the other hand, in Book Detail page, the users can view the book information in details with images and description. In Contact page, there is a form to input the contact information if the users want to buy or sell books. In other pages, including About, Privacy, Terms, and Copyrights, the users can understand clearler about the webite company and its policy. Finally, all pages are styled with animation when hovering, and include responsive design – mobile, tablet, and desktop..<br>
+However, because the objectives of this project concentrate on the improvement of using HTML and CSS, there is no backend for this project. In other words, the users can only view the book list, the Contact form information will not be sent to the client. And all `Add to cart` buttons in Detail page will only display a message modal. The main resources in this project are HTML, CSS, and some JavaScript for animation control. .<br>
+This project lasts for 4 weeks. The first week is for researching, the second week is for designing, and two final weeks are for implementing this project.
 
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,17 +94,18 @@ To install the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+<!-- DEMO -->
+![Homepage](image-1.png)
 
-## Usage
+![Homepage Book list](image-2.png)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Homepage Rich Media](image-3.png)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![Contact Form](image-4.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+![Privacy Page](image-5.png)
 
-<!-- ROADMAP -->
+![Copyright Page](image-6.png)
 
 <!-- CONTACT -->
 
@@ -131,8 +122,6 @@ Demo Link: [https://puppychan.github.io/HermesLibrary/](https://puppychan.github
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 - Detailed Acknowledgement is inside each code file.
 
