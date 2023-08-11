@@ -95,7 +95,7 @@ To install the app
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DEMO -->
-![Homepage](image-1.png)
+<!-- ![Homepage](image-1.png)
 
 ![Homepage Book list](image-2.png)
 
@@ -105,7 +105,7 @@ To install the app
 
 ![Privacy Page](image-5.png)
 
-![Copyright Page](image-6.png)
+![Copyright Page](image-6.png) -->
 
 <!-- CONTACT -->
 
