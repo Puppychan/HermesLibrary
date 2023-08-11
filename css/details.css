@@ -9,12 +9,6 @@
         - Breadcrumb: https://codepen.io/renaudtertrais/pen/nELvvd
  */
 .content {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
-    /* gap: var(--sz-5); */
-
     padding: var(--sz-8);
 }
 

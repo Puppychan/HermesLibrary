@@ -1,7 +1,16 @@
-/* Ref:
-- https://tailwindcss.com/docs/font-size
--Size: https://tailwindcss.com/docs/height
-- Typing: https://css-tricks.com/snippets/css/typewriter-effect/ */
+/* 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Tran Mai Nhung
+    ID: s3879954
+    Acknowledgement: 
+        - Font Size: https://tailwindcss.com/docs/font-size
+        - Size: https://tailwindcss.com/docs/height
+        - Typing Animation: https://css-tricks.com/snippets/css/typewriter-effect/
+ */
+
 :root {
     --primary-color-light: #d7b8aa;
     --primary-color-dark: #323232;

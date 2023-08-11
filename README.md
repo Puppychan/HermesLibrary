@@ -13,7 +13,7 @@
   <h3 style="font-weight: 300;">Bridging Book Lovers Worldwide</h3>
 
   <p align="center">
-    <a href="https://hermes-library.netlify.app/">View Online</a>
+    <a href="https://puppychan.github.io/HermesLibrary/">View Online</a>
     ---
     <a href="https://github.com/Puppychan/HermesLibrary">View Repository</a>
   </p>
@@ -80,11 +80,8 @@ Because this is a simple project for practing stying css, and understanding the 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 todo:
-- Change embed content
-- Add header comment
 - Change references style inside each file
 - Check html tag
-- 
 
 <!-- GETTING STARTED -->
 
@@ -127,7 +124,7 @@ Tran Mai Nhung - [Matsuri's Discord](https://www.linkedin.com/in/nhung-tran-5283
 
 Project Link: [https://github.com/Puppychan/HermesLibrary](https://github.com/Puppychan/HermesLibrary)
 
-Demo Link: [https://hermes-library.netlify.app/copyright](https://hermes-library.netlify.app/copyright)
+Demo Link: [https://puppychan.github.io/HermesLibrary/](https://puppychan.github.io/HermesLibrary/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

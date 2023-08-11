@@ -1,5 +1,14 @@
-/* https://codepen.io/knyttneve/pen/LamBMP 
-https://stackoverflow.com/questions/23610151/can-you-style-ordered-list-numbers*/
+/* 
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Tran Mai Nhung
+    ID: s3879954
+    Acknowledgement: 
+        - https://codepen.io/knyttneve/pen/LamBMP 
+        - https://stackoverflow.com/questions/23610151/can-you-style-ordered-list-numbers
+ */
 :root {
     /* --contentHeight: 30vh; */
     --contentHeight: auto;
