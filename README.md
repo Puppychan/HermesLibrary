@@ -79,6 +79,12 @@ Because this is a simple project for practing stying css, and understanding the 
 - <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+todo:
+- Change embed content
+- Add header comment
+- Change references style inside each file
+- Check html tag
+- 
 
 <!-- GETTING STARTED -->
 
