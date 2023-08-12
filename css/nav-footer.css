@@ -109,32 +109,36 @@ footer {
     width: 100%;
     padding: var(--sz-16) var(--sz-7);
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     gap: var(--sz-7);
-    background-color: var(--primary-color-dark);   
+    background-color: var(--primary-color-dark);
     /* border-top: 1px solid var(--brown); */
 }
+
 footer nav.sub {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: var(--sz-5);
 }
+
 footer nav.main {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: var(--sz-5);
 }
+
 footer a {
     color: var(--white);
     transition: all 0.2s ease-in-out;
 }
+
 /* sub */
 footer nav.sub a {
     font-size: var(--text-2xl);
@@ -151,17 +155,20 @@ footer nav.sub a {
     align-items: center;
 
 }
+
 footer nav.sub a:hover {
     opacity: 1;
     transform: scale(1.1);
     background-color: var(--cream);
     filter: brightness(110%);
 }
+
 /* main */
 footer nav.main a {
     font-size: var(--text-xl);
     padding: 0 var(--sz-2);
 }
+
 footer nav.main a::after {
     position: absolute;
     bottom: -0.3rem;
@@ -178,9 +185,11 @@ footer nav.main a::after {
     transition: all 0.2s ease-in-out;
 
 }
+
 footer nav.main a:hover {
     transform: scale(1.05);
 }
+
 footer nav.main a:hover::after {
     width: 100%;
     opacity: 1;
@@ -278,18 +287,22 @@ footer nav.main a:hover::after {
         padding: var(--sz-1) var(--sz-3);
     }
 }
-@media screen and (max-width: 640px){
+
+@media screen and (max-width: 640px) {
     footer nav.sub {
         gap: var(--sz-3);
     }
+
     footer nav.main {
         flex-direction: column;
         gap: var(--sz-3);
     }
+
     footer nav.sub a {
         font-size: var(--text-2xl);
         width: var(--sz-12);
     }
+
     footer nav.main a {
         font-size: var(--text-lg);
         padding: 0 var(--sz-half);

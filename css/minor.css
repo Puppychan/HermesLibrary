@@ -96,11 +96,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .content a {
     color: var(--dark-tan);
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
+
 .content a:hover {
     text-decoration: overline underline;
     text-decoration-color: var(--primary-color-dark);
@@ -147,9 +149,11 @@ details>article {
     line-height: 2rem;
     letter-spacing: 0.020em;
 }
+
 details>article>p {
     text-indent: var(--sz-5);
 }
+
 details>article li {
     margin-left: var(--sz-5);
 }
@@ -163,12 +167,14 @@ details[open]>article {
     height: var(--contentHeight);
 
 }
+
 @media screen and (max-width: 1536px) {
     .content-article {
         width: 70vw;
     }
 
 }
+
 @media screen and (max-width: 1280px) {
     .content-article {
         width: 75vw;
@@ -176,10 +182,12 @@ details[open]>article {
     }
 
 }
+
 @media screen and (max-width: 1024px) {
     :root {
         --sectionWidth: 75vw;
     }
+
     .content-article {
         width: 85vw;
         gap: var(--sz-10);
@@ -199,6 +207,7 @@ details[open]>article {
         font-size: var(--text-base);
         padding: var(--sz-10) 0 var(--sz-1);
     }
+
     .content-article {
         width: 90vw;
         gap: var(--sz-7);

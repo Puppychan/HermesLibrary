@@ -129,9 +129,7 @@ ul.breadcrumb li:last-child:focus {
     /* column-gap: var(--sz-3); */
     /* row-gap: var(--sz-3); */
     grid-template:
-        "main sub1 price"0.33333fr 
-        "main sub2 price"0.33333fr 
-        "main sub3 btn"0.33333fr / 1.85fr 1.3fr 1fr;
+        "main sub1 price"0.33333fr "main sub2 price"0.33333fr "main sub3 btn"0.33333fr / 1.85fr 1.3fr 1fr;
 }
 
 img[class*="details-illustration"] {
@@ -253,10 +251,12 @@ hr {
     .breadcrumb-container {
         justify-content: center;
     }
+
     ul.breadcrumb li:not(:last-child):hover a,
     ul.breadcrumb li:not(:last-child):focus a {
         max-width: calc(var(--breadcrumb-size) * 7);
     }
+
     ul.breadcrumb li:hover:not(:last-child) a,
     ul.breadcrumb li:focus:not(:last-child) a {
         padding-left: calc(var(--breadcrumb-size));
@@ -267,10 +267,7 @@ hr {
         column-gap: 0;
         height: 120vh;
         grid-template:
-            "main main main"0.9fr 
-            "sub1 sub2 sub3"0.3fr 
-            "price price price"0.03fr 
-            "btn btn btn"0.09fr / 1fr 1fr 1fr;
+            "main main main"0.9fr "sub1 sub2 sub3"0.3fr "price price price"0.03fr "btn btn btn"0.09fr / 1fr 1fr 1fr;
 
     }
 
@@ -307,9 +304,11 @@ hr {
     .details-info-title {
         font-size: var(--text-4xl);
     }
+
     .details-info-author {
         font-size: var(--text-2xl);
     }
+
     .details-info-desc {
         font-size: var(--text-lg);
     }
@@ -349,10 +348,7 @@ hr {
     .details-illustration {
         height: 100vh;
         grid-template:
-            "main main main"0.8fr 
-            "sub1 sub2 sub3"0.2fr 
-            "price price price"0.1fr 
-            "btn btn btn"0.05fr / 1fr 1fr 1fr;
+            "main main main"0.8fr "sub1 sub2 sub3"0.2fr "price price price"0.1fr "btn btn btn"0.05fr / 1fr 1fr 1fr;
 
     }
 
@@ -396,7 +392,9 @@ hr {
     }
 
 }
+
 @media screen and (max-width: 420px) {
+
     ul.breadcrumb li:hover:not(:last-child) a,
     ul.breadcrumb li:focus:not(:last-child) a {
         padding-right: calc(var(--breadcrumb-size) / 5.5);
