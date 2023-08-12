@@ -6,9 +6,9 @@
     Author: Tran Mai Nhung
     ID: s3879954
     Acknowledgement: 
-        - Font Size: https://tailwindcss.com/docs/font-size
-        - Size: https://tailwindcss.com/docs/height
-        - Typing Animation: https://css-tricks.com/snippets/css/typewriter-effect/
+        [1] “Installation - Tailwind CSS.” https://tailwindcss.com/docs/installation (accessed Aug. 12, 2023).
+        [2] “Typewriter Effect | CSS-Tricks - CSS-Tricks.” https://css-tricks.com/snippets/css/typewriter-effect/ (accessed Aug. 12, 2023).
+
  */
 
 :root {
@@ -152,23 +152,27 @@
         border-color: orange;
     }
 }
+
 @keyframes appear-opacity {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
-    
+
 }
+
 @keyframes appear-moving {
     0% {
         transform: translateX(100%);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0px);
         opacity: 1;
     }
-    
+
 }

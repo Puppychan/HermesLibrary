@@ -6,14 +6,19 @@
     Author: Tran Mai Nhung
     ID: s3879954
     Acknowledgement: 
-        - https://stackoverflow.com/questions/15381172/how-can-i-make-flexbox-children-100-height-of-their-parent
-        - https://www.sliderrevolution.com/resources/css-select-styles/
-        - https://stackoverflow.com/questions/3532649/problem-with-select-and-after-with-css-in-webkit
-        - https://moderncss.dev/pure-css-custom-checkbox-style/
-        - https://moderncss.dev/pure-css-custom-styled-radio-buttons/
-        - https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea
-        - https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity
-        - https://css-tricks.com/almanac/selectors/p/placeholder/
+        [1] “Styling Form Inputs in CSS With :required, :optional, :valid and :invalid | DigitalOcean.” https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity (accessed Aug. 12, 2023).
+        [2] S. Eckles, “Pure CSS Custom Styled Radio Buttons,” Modern CSS Solutions. https://moderncss.dev/pure-css-custom-styled-radio-buttons/ (accessed Aug. 12, 2023).
+        [3] “Pure CSS Custom Checkbox Style | Modern CSS Solutions.” https://moderncss.dev/pure-css-custom-checkbox-style/ (accessed Aug. 12, 2023).
+        [4] N. Merouze, “problem with <select> and :after with CSS in WebKit,” Stack Overflow, May 14, 2013. https://stackoverflow.com/q/3532649 (accessed Aug. 12, 2023).
+        [5]: :“placeholder | CSS-Tricks - CSS-Tricks.” https://css-tricks.com/almanac/selectors/p/placeholder/ (accessed Aug. 12, 2023).
+        [6] user549757, “How do I disable the resizable property of a textarea?,” Stack Overflow, Oct. 21, 2022. https://stackoverflow.com/q/5235142 (accessed Aug. 12, 2023).
+        [7] Raz, “How can I make Flexbox children 100% height of their parent?,” Stack Overflow, Apr. 01, 2020. https://stackoverflow.com/q/15381172 (accessed Aug. 12, 2023).
+        [8] “Awesome CSS Select Styles You Can Use Right Now.” https://www.sliderrevolution.com/resources/css-select-styles/ (accessed Aug. 12, 2023).
+        [9] D. Thomas, “Answer to ‘problem with <select> and :after with CSS in WebKit,’” Stack Overflow, Aug. 20, 2010. https://stackoverflow.com/a/3533807 (accessed Aug. 12, 2023).
+        [10] “Answer to ‘How do I disable the resizable property of a textarea?,’” Stack Overflow, May 28, 2018. https://stackoverflow.com/a/50560918 (accessed Aug. 12, 2023).
+        [11] yevgeniy, “Answer to ‘How do I disable the resizable property of a textarea?,’” Stack Overflow, Feb. 12, 2015. https://stackoverflow.com/a/28477225 (accessed Aug. 12, 2023).
+        [12] 何魏奇 A. W. H., “Answer to ‘How can I make Flexbox children 100% height of their parent?,’” Stack Overflow, Feb. 09, 2021. https://stackoverflow.com/a/66115233 (accessed Aug. 12, 2023).
+
  */
 body {
     /* background-color: var(--white); */
@@ -87,6 +92,7 @@ body {
     column-gap: var(--sz-6);
     flex-wrap: wrap;
 }
+
 .form-element-normal {
     display: flex;
     gap: var(--sz-1);
@@ -267,14 +273,16 @@ body {
     gap: var(--sz-3);
     align-items: center;
 }
-.content-left-form-btns > button {
+
+.content-left-form-btns>button {
     padding: var(--sz-2-half) var(--sz-8);
     font-size: var(--text-lg);
 }
+
 /* submit */
 .contact-submit {
     width: fit-content;
-    
+
     border-color: var(--gray);
     color: var(--primary-color-dark);
     background-color: var(--cream);
@@ -290,6 +298,7 @@ body {
     color: var(--white);
     border-color: var(--primary-color-dark);
 }
+
 /* reset */
 .contact-reset {
     /* background-color: transparent; */
@@ -305,6 +314,7 @@ body {
     transition: all .2s ease-in;
     overflow: hidden;
 }
+
 .contact-reset-effect {
     position: absolute;
     right: 0;
@@ -317,9 +327,11 @@ body {
     /* transform: translateX(-101%); */
     transition: transform .2s ease-in 0.16s;
 }
+
 .contact-reset:hover {
     background-position: 0 100%;
 }
+
 .contact-reset:hover .contact-reset-effect {
     /* transform: translateX(0); */
     transform: translateX(-101%);
@@ -351,6 +363,7 @@ body {
     .content-left {
         width: 45%;
     }
+
     .content-left-form label {
         width: var(--sz-32);
     }
@@ -395,9 +408,11 @@ body {
         padding: var(--sz-10) var(--sz-12);
         /* z-index: 1; */
     }
+
     .form-element-normal {
         flex-direction: column;
     }
+
     .content-left-form label,
     .form-element-special p {
         width: 100%;

@@ -68,9 +68,10 @@ Because this is a simple project for practing stying css, and understanding the 
 - <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 - <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
+Images Hosting Resource: [imgbox.com](https://imgbox.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 todo:
-- Change references style inside each file
 - Check html tag
 
 <!-- GETTING STARTED -->

@@ -6,14 +6,20 @@
     Author: Tran Mai Nhung
     ID: s3879954
     Acknowledgement: 
-        - scroll grid: https://stackoverflow.com/questions/61959291/how-to-get-scrolling-in-a-css-grid
-        - scroll bar: https://blog.logrocket.com/guide-styling-css-scrollbars/ 
-        - button: https://getcssscan.com/css-buttons-examples
-        - Modal: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
-        - Typing: https://css-tricks.com/snippets/css/typewriter-effect/
+        - scroll grid: 
+            [1] “Browse Fonts,” Google Fonts. https://fonts.google.com/ (accessed Aug. 12, 2023).
+        - scroll bar:
+            [2] “Guide to styling CSS scrollbars - LogRocket Blog.” https://blog.logrocket.com/guide-styling-css-scrollbars/ (accessed Aug. 12, 2023).
+        - button: 
+            [3] “92 Beautiful CSS buttons examples - CSS Scan.” https://getcssscan.com/css-buttons-examples (accessed Aug. 12, 2023).
+        - Modal: 
+            [4] “W3Schools online HTML editor.” https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal (accessed Aug. 12, 2023).
+        - Typing:
+            [5] “Typewriter Effect | CSS-Tricks - CSS-Tricks.” https://css-tricks.com/snippets/css/typewriter-effect/ (accessed Aug. 12, 2023).
         - Font: 
-            - https://fonts.google.com/specimen/Quintessential?preview.text=Hermes%20Library&preview.text_type=custom&category=Handwriting
-            - https://fonts.google.com/specimen/Sofia?preview.text=Hermes%20Library&preview.text_type=custom&category=Handwriting
+            [6] “Quintessential,” Google Fonts. https://fonts.google.com/specimen/Quintessential (accessed Aug. 12, 2023).
+            [7] M. Benjamin, “Answer to ‘How to get scrolling in a CSS grid?,’” Stack Overflow, May 22, 2020. https://stackoverflow.com/a/61960229 (accessed Aug. 12, 2023).
+            
  */
 @import "./variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Rubik+Dirt&family=Rye&family=Sofia&family=Uncial+Antiqua&display=swap');
